@@ -1,4 +1,11 @@
 .main-nosotros{
+    h1 {
+        background-color: $naranja;
+        color: $azul;
+        text-align: center;
+        font-family: $font_sans-serif;
+        padding: 10px;
+    }
     .nuestra-historia {
         color: $azul;
         text-align: center;
@@ -25,11 +32,11 @@
             border-radius: 10px;
         }
         p {
-            color: rgb(247, 83, 23);
+            color: $naranja;
             padding: 5px;
             font-size: 35px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            border-bottom: 5px solid rgb(247, 83, 23);
+            font-family: $font_arial;
+            border-bottom: 5px solid $naranja;
         
         }
     } 

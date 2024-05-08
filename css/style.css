@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif; }
+
 .main-index .fondo-inicio {
   height: 600px;
   display: flex;
@@ -125,6 +130,13 @@ h3 {
   background-color: #f75317;
   border-radius: 5px; }
 
+.main-nosotros h1 {
+  background-color: #f75317;
+  color: #070733;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 10px; }
+
 .main-nosotros .nuestra-historia {
   color: #070733;
   text-align: center;
@@ -152,5 +164,5 @@ h3 {
   color: #f75317;
   padding: 5px;
   font-size: 35px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-bottom: 5px solid #f75317; }
