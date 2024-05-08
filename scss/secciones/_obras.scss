@@ -1,0 +1,33 @@
+.main-obras{
+    .varias-obras {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+    .edificaciones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: $font_sans-serif;
+        box-shadow: 1px 1px 5px 1px;
+        padding: 10px;
+        margin: 15px;
+    
+    }
+    
+    .edificaciones img {
+        height: 400px;
+        width: 350px;
+    }
+    
+    .button {
+        padding: 7px;
+        margin: 5px;
+        color: $azul;
+        background-color: $naranja;
+        border-radius: 5px;
+    }
+}
