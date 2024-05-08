@@ -20,6 +20,21 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center; }
 
+.color-navegacion {
+  background-color: #070733; }
+  .color-navegacion div a {
+    color: #f75317; }
+  .color-navegacion div div .nav-izq {
+    justify-content: flex-end;
+    flex-basis: 0;
+    flex-grow: 0; }
+    .color-navegacion div div .nav-izq ul li .nav-item a:hover {
+      color: #817e7d; }
+    .color-navegacion div div .nav-izq ul li .active {
+      color: #f75317 !important; }
+    .color-navegacion div div .nav-izq ul li .dropdown-item {
+      color: #070733; }
+
 .terminados {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -166,3 +181,60 @@ h3 {
   font-size: 35px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-bottom: 5px solid #f75317; }
+
+@media (max-width: 375px) {
+  .servicios img {
+    height: 200px;
+    width: 300px; }
+  .servicios p {
+    font-size: 20px; } }
+
+.main-contacto {
+  background-color: #070733; }
+  .main-contacto .container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 10, px;
+    width: 1600px; }
+    .main-contacto .container .box-info {
+      color: #070733;
+      display: flex;
+      flex-direction: column; }
+      .main-contacto .container .box-info .datos {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        color: white;
+        padding: 20px; }
+        .main-contacto .container .box-info .datos .contacto {
+          color: #f75317;
+          background-color: #070733;
+          font-weight: bolder;
+          font-size: xx-large;
+          padding: 40px;
+          text-align: left; }
+    .main-contacto .container form {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 45px;
+      margin: 6px; }
+      .main-contacto .container form .formulario {
+        background-color: transparent;
+        color: #f75317;
+        padding: 20px;
+        margin: 20px;
+        height: 50px;
+        width: 500px;
+        border-bottom: 2px solid #f75317; }
+      .main-contacto .container form textarea {
+        color: #f75317;
+        border-bottom: 2px solid #f75317;
+        background-color: transparent;
+        padding: 20px;
+        margin: 20px; }
+      .main-contacto .container form .pregunta-contacto {
+        color: #f75317;
+        padding: 5px;
+        margin-left: 5px;
+        text-align: left; }

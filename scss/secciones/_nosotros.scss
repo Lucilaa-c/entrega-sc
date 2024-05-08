@@ -42,3 +42,16 @@
     } 
 
 }
+
+@media (max-width:375px) {
+    .servicios{
+        img {
+            height: 200px;
+            width: 300px;
+        }
+        p {
+            font-size: 20px;
+        }
+
+    } 
+}

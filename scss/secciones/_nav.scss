@@ -1,0 +1,36 @@
+    .color-navegacion {
+        background-color: $azul;
+        div{
+            a {
+                color: $naranja;
+            
+            }
+            div{
+                .nav-izq {
+                    justify-content: flex-end;
+                    flex-basis: 0;
+                    flex-grow: 0;
+                    ul{
+                        li{
+                            .nav-item{
+                                a:hover{
+                                    color: $gris;
+                                }
+                            } 
+                            .active {
+                                color: $naranja !important;
+                            }
+                            .dropdown-item {
+                                color: $azul;
+                            }
+                        }
+                    }
+                }
+        }
+    }
+
+    }
+
+
+
+

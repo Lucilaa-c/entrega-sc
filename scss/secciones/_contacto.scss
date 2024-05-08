@@ -1,12 +1,12 @@
 .main-contacto{
-    background-color: rgb(7, 7, 51);
+    background-color: $azul;
     .container {
         display: grid;
         grid-template-columns: repeat(2, 50%);
         padding: 10, px;
         width: 1600px;
         .box-info {
-            color: rgb(7, 7, 51);
+            color: $azul;
             display: flex;
             flex-direction: column;
         
@@ -14,7 +14,7 @@
                 display: flex;
                 flex-direction: column;
                 text-align: left;
-                color: white;
+                color: $blanco;
                 padding: 20px;
             
                 .contacto {
@@ -38,23 +38,23 @@
            
             .formulario {
                 background-color: transparent;
-                color: rgb(247, 83, 23);
+                color: $naranja;
                 padding: 20px;
                 margin: 20px;
                 height: 50px;
                 width: 500px;
-                border-bottom: 2px solid rgb(247, 83, 23);
+                border-bottom: 2px solid $naranja;
             }
             textarea {
-                color: rgb(247, 83, 23);
-                border-bottom: 2px solid rgb(247, 83, 23);
+                color: $naranja;
+                border-bottom: 2px solid $naranja;
                 background-color: transparent;
                 padding: 20px;
                 margin: 20px;
             
             }
             .pregunta-contacto {
-                color: rgb(247, 83, 23);
+                color: $naranja;
                 padding: 5px;
                 margin-left: 5px;
                 text-align: left;
@@ -63,9 +63,3 @@
     }
 
 }
-
-
-
-
-
-
