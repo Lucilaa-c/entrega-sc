@@ -1,124 +1,124 @@
+.terminados {
+    display: flex;
+    justify-content: center;
 
-.main-trabajosterminados{
-    h1 {
-        background-color: rgb(247, 83, 23);
-        color: rgb(7, 7, 51);
+    .ll-container {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         text-align: center;
-        font-family: $font_sans-serif;
-        padding: 10px;
-    }
-    
-    .terminados {
-        display: flex;
-        justify-content: center;
-        div {
-            border: 4px solid rgb(7, 7, 51);
-            color: rgb(7, 7, 51);
-            margin: 20px;
-            padding: 40px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 10px;
-            img {
-                height: 350px;
-            }
-            p {
-                font-size: 25px;
-            } 
-        }
-    } 
-    h3 {
-        color: rgb(7, 7, 51);
-        text-align: center;
-        padding: 7px;
-        .td{
-              padding: 20px;
-              margin-top: 75px;
-          }
-    }
-    .realizadas-galeria{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
-        align-content: center;
 
-        .realizadas-galeria{
-            display: grid;
-            grid-template-areas: 
-            "img4 img4 img2 img2 img3 img3"
-            "img1 img1 img5 img5 img6 img6"
-             ;
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
 
-                 div{
-                     .img-1{
-                         grid-area: img1;
-                     }
-                     .img-2{
-                         grid-area: img2;
-                     }
-                     .img-3{
-                         grid-area: img3;
-                     
-                     }
-                     .img-4{
-                         grid-area: img4;
-                     }
-                     .img-5{
-                         grid-area: img5;
-                     }
-                     .img-6{
-                         grid-area: img6;
-                     
-                     }
-                     img{
-                     width: 350px;
-                     margin: 40px;
-                     border: 1px solid rgb(163, 154, 154);
-                     padding: 7px;
-                     }
-                 }
+        p {
+            margin-top: 10px;
+            font-size: 18px;
         }
-    }
-    h3 {
-        color: rgb(7, 7, 51);
-        text-align: center;
-        padding: 7px;
-        .td{
-            padding: 20px;
-            margin-top: 75px;
-        }
-    }
-    .realizadas-thames{
-        display: grid;
-        grid-template-areas:
-        "photo1 photo2 photo3"
-        ;
-        div{
-            .photo-1{
-                grid-area: photo1;
-            
-            }
-            .photo-2{
-                grid-area: photo2;
-            
-            }
-            .photo-3{
-                grid-area: photo3;
-            }
-            img{
-                width: 350px;
-                margin: 40px;
-                border: 1px solid rgb(163, 154, 154);
-                padding: 7px;
+
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #0056b3;
             }
         }
     }
 }
 
-        
+.td {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 42px;
+}
+
+.realizadas-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-auto-flow: dense;
+
+    .img-1 img,
+    .img-2 img,
+    .img-3 img,
+    .img-4 img,
+    .img-5 img,
+    .img-6 img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+    }
+
+    .img-1,
+    .img-4 {
+        grid-column: 1;
+    }
+
+    .img-2,
+    .img-5 {
+        grid-column: 2;
+    }
+
+    .img-3,
+    .img-6 {
+        grid-column: 3;
+    }
+
+    .img-1,
+    .img-2,
+    .img-3 {
+        grid-row: 1;
+    }
+
+    .img-4,
+    .img-5,
+    .img-6 {
+        grid-row: 2;
+    }
+}
+
+
+.realizadas-thames {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-auto-flow: dense;
+
+    .photo-1 img,
+    .photo-2 img,
+    .photo-3 img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+    }
+
+    .photo-1,
+    .photo-2,
+    .photo-3 {
+        grid-row: 1;
+    }
+}
         
        
     
