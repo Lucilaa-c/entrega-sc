@@ -86,7 +86,8 @@
 .main-trabajosdestacados .td {
   text-align: center;
   text-transform: uppercase;
-  font-family: 42px; }
+  font-family: 42px;
+  padding: 20px; }
 
 .main-trabajosdestacados .realizadas-galeria {
   display: grid;
