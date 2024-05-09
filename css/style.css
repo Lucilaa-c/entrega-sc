@@ -20,7 +20,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center; }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   .main-index .fondo-inicio {
     height: 692px; }
   .main-index .texto-index {
@@ -144,7 +144,7 @@
   .main-trabajosdestacados .realizadas-thames .photo-3 {
     grid-row: 1; }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   .main-trabajosdestacados .terminados {
     display: flex;
     justify-content: center;
@@ -191,7 +191,7 @@
       background-color: #f75317;
       border-radius: 5px; }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   .edificaciones {
     width: 300px;
     height: 340px; }
