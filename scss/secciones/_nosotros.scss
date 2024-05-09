@@ -22,7 +22,7 @@
         padding: 10px;
     }
     .servicios{
-        div {
+        .servi {
             margin: 10px;
             padding: 15px;
             color: $azul;
@@ -50,14 +50,45 @@
 }
 
 @media (max-width:375px) {
+   .main-nosotros{
+    h1{
+        margin-right: 60px;
+    }
+    .nuestra-historia{
+        color: $azul;
+        text-align: initial;
+        font-size: 16px;
+        border-bottom: 2px solid $azul;
+        border-left: 3px solid $azul;
+        padding: 8px;
+        margin: 10px;
+        height: 376px;
+        width: 300px;
+
+    }
+    h2{
+        color: $azul;
+        text-align: center;
+        border-right: 4px;
+        padding: 10px;
+        margin-right: 65px;
+    }
+    
     .servicios{
-        img {
-            height: 200px;
-            width: 300px;
-        }
-        p {
-            font-size: 20px;
-        }
+        height: 375px;
+        width: 375px;
+     .servi{
+        margin-right: 70px;
+         img {
+             height: 195px;
+             width: 280px;
+         }
+         p {
+             font-size: 18px;
+         }
+         
+     }
 
     } 
+   }
 }

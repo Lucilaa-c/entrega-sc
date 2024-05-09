@@ -134,6 +134,12 @@
   .main-trabajosdestacados .realizadas-thames .photo-3 {
     grid-row: 1; }
 
+@media (max-width: 375px) {
+  .main-trabajosdestacados .terminados {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; } }
+
 .main-obras h1 {
   background-color: #f75317;
   color: #070733;
@@ -211,7 +217,7 @@
   border-right: 4px;
   padding: 10px; }
 
-.main-nosotros .servicios div {
+.main-nosotros .servicios .servi {
   margin: 10px;
   padding: 15px;
   color: #070733;
@@ -219,11 +225,11 @@
   flex-direction: column;
   align-content: center;
   align-items: center; }
-  .main-nosotros .servicios div img {
+  .main-nosotros .servicios .servi img {
     height: 350px;
     width: 500px;
     border-radius: 10px; }
-  .main-nosotros .servicios div p {
+  .main-nosotros .servicios .servi p {
     color: #f75317;
     padding: 5px;
     font-size: 35px;
@@ -231,11 +237,34 @@
     border-bottom: 5px solid #f75317; }
 
 @media (max-width: 375px) {
-  .servicios img {
-    height: 200px;
+  .main-nosotros h1 {
+    margin-right: 60px; }
+  .main-nosotros .nuestra-historia {
+    color: #070733;
+    text-align: initial;
+    font-size: 16px;
+    border-bottom: 2px solid #070733;
+    border-left: 3px solid #070733;
+    padding: 8px;
+    margin: 10px;
+    height: 376px;
     width: 300px; }
-  .servicios p {
-    font-size: 20px; } }
+  .main-nosotros h2 {
+    color: #070733;
+    text-align: center;
+    border-right: 4px;
+    padding: 10px;
+    margin-right: 65px; }
+  .main-nosotros .servicios {
+    height: 375px;
+    width: 375px; }
+    .main-nosotros .servicios .servi {
+      margin-right: 70px; }
+      .main-nosotros .servicios .servi img {
+        height: 195px;
+        width: 280px; }
+      .main-nosotros .servicios .servi p {
+        font-size: 18px; } }
 
 .main-contacto {
   background-color: #070733; }
