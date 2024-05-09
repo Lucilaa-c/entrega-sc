@@ -339,6 +339,7 @@ textarea {
 }
 
 /*media queries obra*/
+
 @media (max-width:375px) {
     .edificaciones {
         width: 300px;
@@ -362,7 +363,6 @@ textarea {
         padding: 4px;
     }
 }
-
 /*media queries nosotros*/
 @media (max-width:375px) {
     .servicios img {

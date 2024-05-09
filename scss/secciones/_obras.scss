@@ -48,3 +48,25 @@
     
     
 }
+
+@media (max-width:375px) {
+    .edificaciones {
+        width: 300px;
+        height: 340px;
+        img {
+            height: 250px;
+            width: 200px;
+        }
+        h3 {
+            text-align: center;
+            padding: 4px;
+        }
+        .button {
+            padding: 1px;
+            margin: 2px;
+    
+        }
+
+    }
+
+}

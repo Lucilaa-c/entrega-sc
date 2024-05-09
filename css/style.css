@@ -156,6 +156,20 @@
       background-color: #f75317;
       border-radius: 5px; }
 
+@media (max-width: 375px) {
+  .edificaciones {
+    width: 300px;
+    height: 340px; }
+    .edificaciones img {
+      height: 250px;
+      width: 200px; }
+    .edificaciones h3 {
+      text-align: center;
+      padding: 4px; }
+    .edificaciones .button {
+      padding: 1px;
+      margin: 2px; } }
+
 .main-nosotros h1 {
   background-color: #f75317;
   color: #070733;
