@@ -42,19 +42,22 @@
   font-family: "Nunito Sans", sans-serif;
   padding: 10px; }
 
-.main-trabajosterminados .terminados div {
-  border: 4px solid #070733;
-  color: #070733;
-  margin: 20px;
-  padding: 40px;
+.main-trabajosterminados .terminados {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px; }
-  .main-trabajosterminados .terminados div img {
-    height: 350px; }
-  .main-trabajosterminados .terminados div p {
-    font-size: 25px; }
+  justify-content: center; }
+  .main-trabajosterminados .terminados div {
+    border: 4px solid #070733;
+    color: #070733;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; }
+    .main-trabajosterminados .terminados div img {
+      height: 350px; }
+    .main-trabajosterminados .terminados div p {
+      font-size: 25px; }
 
 .main-trabajosterminados h3 {
   color: #070733;
@@ -223,7 +226,7 @@
   .main-contacto .container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    padding: 10, px;
+    padding: 10 px;
     width: 1600px; }
     .main-contacto .container .box-info {
       color: #070733;
@@ -267,3 +270,27 @@
         padding: 5px;
         margin-left: 5px;
         text-align: left; }
+
+@media (max-width: 375px) {
+  .main-contacto .container {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    padding: 10 px;
+    width: 635px; }
+    .main-contacto .container .box-info .datos .contacto {
+      font-size: larger;
+      padding: 30px;
+      text-align: initial; }
+    .main-contacto .container form {
+      padding: 15px;
+      margin: 2px; }
+      .main-contacto .container form .formulario {
+        padding: 7px;
+        margin: 16px;
+        height: 44px;
+        width: 300px; }
+      .main-contacto .container form textarea {
+        padding: 10px;
+        margin: 16px;
+        height: 165px;
+        width: 300px; } }
