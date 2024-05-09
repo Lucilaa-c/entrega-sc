@@ -20,7 +20,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center; }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .main-index .fondo-inicio {
     height: 692px; }
   .main-index .texto-index {
@@ -144,7 +144,7 @@
   .main-trabajosdestacados .realizadas-thames .photo-3 {
     grid-row: 1; }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .main-trabajosdestacados .terminados {
     display: flex;
     justify-content: center;
@@ -191,7 +191,7 @@
       background-color: #f75317;
       border-radius: 5px; }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .edificaciones {
     width: 300px;
     height: 340px; }
@@ -246,7 +246,7 @@
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     border-bottom: 5px solid #f75317; }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .main-nosotros h1 {
     margin-right: 60px; }
   .main-nosotros .nuestra-historia {
@@ -326,7 +326,7 @@
         margin-left: 5px;
         text-align: left; }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .main-contacto .container {
     display: grid;
     grid-template-columns: repeat(1, 100%);
