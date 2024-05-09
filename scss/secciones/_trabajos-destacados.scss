@@ -1,122 +1,132 @@
-.terminados {
-    display: flex;
-    justify-content: center;
-
-    .ll-container {
-        margin: 20px;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.main-trabajosdestacados{
+    h1 {
+        background-color: rgb(247, 83, 23);
+        color: rgb(7, 7, 51);
         text-align: center;
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        p {
-            margin-top: 10px;
-            font-size: 18px;
-        }
-
-        .button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-
-            &:hover {
-                background-color: #0056b3;
+        font-family: "Nunito Sans", sans-serif;
+        padding: 10px;
+    }
+    .terminados {
+        display: flex;
+        justify-content: center;
+    
+        .ll-container {
+            margin: 15px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+    
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+    
+            p {
+                margin-top: 10px;
+                font-size: 18px;
+            }
+    
+            .button {
+                font-family: $font_sans-serif;
+                margin-top: 20px;
+                padding: 10px 20px;
+                font-size: 16px;
+                background-color: $azul;
+                color: $blanco;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+    
+                &:hover {
+                    background-color: $naranja;
+                }
             }
         }
     }
-}
-
-.td {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 42px;
-}
-
-.realizadas-galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    gap: 10px;
-    max-width: 1200px;
-    margin: 0 auto;
-    grid-auto-flow: dense;
-
-    .img-1 img,
-    .img-2 img,
-    .img-3 img,
-    .img-4 img,
-    .img-5 img,
-    .img-6 img {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 8px;
+    
+    .td {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 42px;
     }
-
-    .img-1,
-    .img-4 {
-        grid-column: 1;
+    
+    .realizadas-galeria {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-auto-flow: dense;
+    
+        .img-1 img,
+        .img-2 img,
+        .img-3 img,
+        .img-4 img,
+        .img-5 img,
+        .img-6 img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+    
+        .img-1,
+        .img-4 {
+            grid-column: 1;
+        }
+    
+        .img-2,
+        .img-5 {
+            grid-column: 2;
+        }
+    
+        .img-3,
+        .img-6 {
+            grid-column: 3;
+        }
+    
+        .img-1,
+        .img-2,
+        .img-3 {
+            grid-row: 1;
+        }
+    
+        .img-4,
+        .img-5,
+        .img-6 {
+            grid-row: 2;
+        }
     }
-
-    .img-2,
-    .img-5 {
-        grid-column: 2;
-    }
-
-    .img-3,
-    .img-6 {
-        grid-column: 3;
-    }
-
-    .img-1,
-    .img-2,
-    .img-3 {
-        grid-row: 1;
-    }
-
-    .img-4,
-    .img-5,
-    .img-6 {
-        grid-row: 2;
-    }
-}
-
-
-.realizadas-thames {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    gap: 10px;
-    max-width: 1200px;
-    margin: 0 auto;
-    grid-auto-flow: dense;
-
-    .photo-1 img,
-    .photo-2 img,
-    .photo-3 img {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 8px;
-    }
-
-    .photo-1,
-    .photo-2,
-    .photo-3 {
-        grid-row: 1;
+    
+    
+    .realizadas-thames {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-auto-flow: dense;
+    
+        .photo-1 img,
+        .photo-2 img,
+        .photo-3 img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+    
+        .photo-1,
+        .photo-2,
+        .photo-3 {
+            grid-row: 1;
+        }
     }
 }
         
