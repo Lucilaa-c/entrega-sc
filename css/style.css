@@ -246,106 +246,103 @@
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     border-bottom: 5px solid #f75317; }
 
-@media (min-width: 375px) {
-  .main-nosotros h1 {
-    margin-right: 60px; }
-  .main-nosotros .nuestra-historia {
-    color: #070733;
-    text-align: initial;
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 24px;
+    padding: 15px; }
+  .nuestra-historia {
+    font-size: 18px;
+    padding: 15px;
+    margin: 15px; }
+  h2 {
+    font-size: 20px;
+    padding: 15px; }
+  .servicios .servi {
+    margin: 15px;
+    padding: 15px; }
+    .servicios .servi p {
+      font-size: 14px; } }
+
+@media screen and (max-width: 590px) {
+  h1 {
+    font-size: 20px;
+    padding: 10px; }
+  .nuestra-historia {
     font-size: 16px;
-    border-bottom: 2px solid #070733;
-    border-left: 3px solid #070733;
-    padding: 8px;
-    margin: 10px;
-    height: 376px;
-    width: 300px; }
-  .main-nosotros h2 {
-    color: #070733;
-    text-align: center;
-    border-right: 4px;
     padding: 10px;
-    margin-right: 65px; }
-  .main-nosotros .servicios {
-    height: 375px;
-    width: 375px; }
-    .main-nosotros .servicios .servi {
-      margin-right: 70px; }
-      .main-nosotros .servicios .servi img {
-        height: 195px;
-        width: 280px; }
-      .main-nosotros .servicios .servi p {
-        font-size: 18px; } }
+    margin: 10px; }
+  h2 {
+    font-size: 18px;
+    padding: 10px; }
+  .servicios .servi {
+    margin: 10px;
+    padding: 10px; }
+    .servicios .servi p {
+      font-size: 12px; } }
 
 .main-contacto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   background-color: #070733; }
   .main-contacto .container {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
-    padding: 10 px;
-    width: 1600px; }
+    grid-template-columns: 1fr 400px;
+    gap: 20px;
+    justify-items: start; }
     .main-contacto .container .box-info {
-      color: #070733;
-      display: flex;
-      flex-direction: column; }
+      color: #070733; }
       .main-contacto .container .box-info .datos {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
         color: white;
         padding: 20px; }
         .main-contacto .container .box-info .datos .contacto {
           color: #f75317;
           background-color: #070733;
-          font-weight: bolder;
-          font-size: xx-large;
-          padding: 40px;
-          text-align: left; }
+          font-weight: bold;
+          font-size: 24px;
+          padding: 40px; }
     .main-contacto .container form {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      padding: 45px;
-      margin: 6px; }
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px; }
+      @media (max-width: 820px) {
+        .main-contacto .container form {
+          grid-row: 1; } }
       .main-contacto .container form .formulario {
         background-color: transparent;
         color: #f75317;
-        padding: 20px;
-        margin: 20px;
-        height: 50px;
-        width: 500px;
-        border-bottom: 2px solid #f75317; }
-      .main-contacto .container form textarea {
-        color: #f75317;
-        border-bottom: 2px solid #f75317;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid #f75317;
+        border-radius: 5px;
+        width: calc(100% - 20px); }
+      .main-contacto .container form .comentarios {
         background-color: transparent;
-        padding: 20px;
-        margin: 20px; }
+        color: #f75317;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid #f75317;
+        border-radius: 5px;
+        width: calc(100% - 20px);
+        height: 200px;
+        resize: vertical; }
       .main-contacto .container form .pregunta-contacto {
         color: #f75317;
-        padding: 5px;
-        margin-left: 5px;
+        margin: 10px 0;
         text-align: left; }
-
-@media (min-width: 375px) {
-  .main-contacto .container {
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
-    padding: 10 px;
-    width: 635px; }
-    .main-contacto .container .box-info .datos .contacto {
-      font-size: larger;
-      padding: 30px;
-      text-align: initial; }
-    .main-contacto .container form {
-      padding: 15px;
-      margin: 2px; }
-      .main-contacto .container form .formulario {
-        padding: 7px;
-        margin: 16px;
-        height: 44px;
-        width: 300px; }
-      .main-contacto .container form textarea {
-        padding: 10px;
-        margin: 16px;
-        height: 165px;
-        width: 300px; } }
+      .main-contacto .container form .newsletter {
+        margin-bottom: 10px; }
+      .main-contacto .container form .enviar {
+        background-color: #f75317;
+        color: #070733;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 100%; }
+        .main-contacto .container form .enviar:hover {
+          background-color: #d43e07; }
