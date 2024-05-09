@@ -15,6 +15,12 @@
         padding: 10px;
         margin: 20px;
     }
+    h2 {
+        color: $azul;
+        text-align: center;
+        border-right: 4px;
+        padding: 10px;
+    }
     .servicios{
         div {
             margin: 10px;
@@ -24,19 +30,19 @@
             flex-direction: column;
             align-content: center;
             align-items: center;
-        
-        }
-        img {
-            height: 350px;
-            width: 500px;
-            border-radius: 10px;
-        }
-        p {
-            color: $naranja;
-            padding: 5px;
-            font-size: 35px;
-            font-family: $font_arial;
-            border-bottom: 5px solid $naranja;
+            img {
+                height: 350px;
+                width: 500px;
+                border-radius: 10px;
+            }
+            p {
+                color: $naranja;
+                padding: 5px;
+                font-size: 35px;
+                font-family: $font_arial;
+                border-bottom: 5px solid $naranja;
+            
+            }
         
         }
     } 

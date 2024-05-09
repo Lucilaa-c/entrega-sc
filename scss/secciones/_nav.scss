@@ -1,36 +1,35 @@
-    .color-navegacion {
-        background-color: $azul;
-        div{
-            a {
-                color: $naranja;
-            
-            }
-            div{
-                .nav-izq {
-                    justify-content: flex-end;
-                    flex-basis: 0;
-                    flex-grow: 0;
-                    ul{
-                        li{
-                            .nav-item{
-                                a:hover{
-                                    color: $gris;
-                                }
-                            } 
-                            .active {
-                                color: $naranja !important;
-                            }
-                            .dropdown-item {
-                                color: $azul;
-                            }
+
+.color-navegacion {    
+    background-color: $azul;
+    a{
+        color: $blanco;
+    }
+    .active {
+        color: $blanco !important;
+    }
+    
+     .nav-izq {
+          justify-content: flex-end;
+           flex-basis: 0;
+           flex-grow: 0;
+               ul{
+                .dropdown-menu{
+                    li{
+                        a{
+                            color: rgb(7, 7, 51);
                         }
                     }
                 }
-        }
-    }
+                 li{
+                    
+                    a:hover{
+                        color: rgb(247, 83, 23);
+                    }
+                      
+                 }
+                }
+     }
 
-    }
-
-
-
-
+        
+    
+}

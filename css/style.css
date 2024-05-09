@@ -22,101 +22,99 @@
 
 .color-navegacion {
   background-color: #070733; }
-  .color-navegacion div a {
-    color: #f75317; }
-  .color-navegacion div div .nav-izq {
+  .color-navegacion a {
+    color: white; }
+  .color-navegacion .active {
+    color: white !important; }
+  .color-navegacion .nav-izq {
     justify-content: flex-end;
     flex-basis: 0;
     flex-grow: 0; }
-    .color-navegacion div div .nav-izq ul li .nav-item a:hover {
-      color: #817e7d; }
-    .color-navegacion div div .nav-izq ul li .active {
-      color: #f75317 !important; }
-    .color-navegacion div div .nav-izq ul li .dropdown-item {
+    .color-navegacion .nav-izq ul .dropdown-menu li a {
       color: #070733; }
+    .color-navegacion .nav-izq ul li a:hover {
+      color: #f75317; }
 
-.terminados {
+.main-trabajosterminados .terminados h1 {
+  background-color: #f75317;
+  color: #070733;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 10px; }
+
+.main-trabajosterminados .terminados div {
+  border: 4px solid #070733;
+  color: #070733;
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; }
+  .main-trabajosterminados .terminados div img {
+    height: 350px; }
+  .main-trabajosterminados .terminados div p {
+    font-size: 25px; }
+
+.main-trabajosterminados .td {
+  padding: 20px;
+  margin-top: 75px; }
+
+.main-trabajosterminados .realizadas-galeria {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
   justify-content: center;
   align-content: center; }
-  .terminados h1 {
-    background-color: #f75317;
-    color: #070733;
-    text-align: center;
-    font-family: "Nunito Sans", sans-serif;
-    padding: 10px; }
-  .terminados .terminados div {
-    border: 4px solid #070733;
-    color: #070733;
-    margin: 20px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px; }
-  .terminados .terminados img {
-    height: 350px; }
-  .terminados .terminados p {
-    font-size: 25px; }
+  .main-trabajosterminados .realizadas-galeria .realizadas-galeria {
+    display: grid;
+    grid-template-areas: "img4 img4 img2 img2 img3 img3" "img1 img1 img5 img5 img6 img6"; }
+    .main-trabajosterminados .realizadas-galeria .realizadas-galeria div .img-1 {
+      grid-area: img1; }
+    .main-trabajosterminados .realizadas-galeria .realizadas-galeria div .img-2 {
+      grid-area: img2; }
+    .main-trabajosterminados .realizadas-galeria .realizadas-galeria div .img-3 {
+      grid-area: img3; }
+    .main-trabajosterminados .realizadas-galeria .realizadas-galeria div .img-4 {
+      grid-area: img4; }
+    .main-trabajosterminados .realizadas-galeria .realizadas-galeria div .img-5 {
+      grid-area: img5; }
+    .main-trabajosterminados .realizadas-galeria .realizadas-galeria div .img-6 {
+      grid-area: img6; }
+    .main-trabajosterminados .realizadas-galeria .realizadas-galeria div img {
+      width: 350px;
+      margin: 40px;
+      border: 1px solid #a39a9a;
+      padding: 7px; }
 
-h3 {
-  color: #070733;
-  text-align: center;
-  padding: 7px; }
-
-.realizadas-galeria {
-  display: grid;
-  grid-template-areas: "img4 img4 img2 img2 img3 img3" "img1 img1 img5 img5 img6 img6"; }
-
-.realizadas-galeria div .img-1 {
-  grid-area: img1; }
-
-.realizadas-galeria div .img-2 {
-  grid-area: img2; }
-
-.realizadas-galeria div .img-3 {
-  grid-area: img3; }
-
-.realizadas-galeria div .img-4 {
-  grid-area: img4; }
-
-.realizadas-galeria div .img-5 {
-  grid-area: img5; }
-
-.realizadas-galeria div .img-6 {
-  grid-area: img6; }
-
-.realizadas-galeria img {
-  width: 350px;
-  margin: 40px;
-  border: 1px solid #a39a9a;
-  padding: 7px; }
-
-.td {
-  padding: 20px;
-  margin-top: 75px; }
-
-.realizadas-thames {
+.main-trabajosterminados .realizadas-thames {
   display: grid;
   grid-template-areas: "photo1 photo2 photo3"; }
+  .main-trabajosterminados .realizadas-thames div .photo-1 {
+    grid-area: photo1; }
+  .main-trabajosterminados .realizadas-thames div .photo-2 {
+    grid-area: photo2; }
+  .main-trabajosterminados .realizadas-thames div .photo-3 {
+    grid-area: photo3; }
+  .main-trabajosterminados .realizadas-thames div img {
+    width: 350px;
+    margin: 40px;
+    border: 1px solid #a39a9a;
+    padding: 7px; }
 
-.realizadas-thames div .photo-1 {
-  grid-area: photo1; }
+.main-obras h1 {
+  background-color: #f75317;
+  color: #070733;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 10px; }
 
-.realizadas-thames div .photo-2 {
-  grid-area: photo2; }
-
-.realizadas-thames div .photo-3 {
-  grid-area: photo3; }
-
-.realizadas-thames img {
-  width: 350px;
-  margin: 40px;
-  border: 1px solid #a39a9a;
-  padding: 7px; }
+.main-obras h2 {
+  color: #070733;
+  text-align: center;
+  border-right: 4px;
+  padding: 10px; }
 
 .main-obras .varias-obras {
   display: flex;
@@ -124,26 +122,27 @@ h3 {
   justify-content: space-around;
   flex-wrap: wrap;
   align-content: center; }
-
-.main-obras .edificaciones {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Nunito Sans", sans-serif;
-  box-shadow: 1px 1px 5px 1px;
-  padding: 10px;
-  margin: 15px; }
-
-.main-obras .edificaciones img {
-  height: 400px;
-  width: 350px; }
-
-.main-obras .button {
-  padding: 7px;
-  margin: 5px;
-  color: #070733;
-  background-color: #f75317;
-  border-radius: 5px; }
+  .main-obras .varias-obras .edificaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 1px 1px 5px 1px;
+    padding: 10px;
+    margin: 15px; }
+    .main-obras .varias-obras .edificaciones img {
+      height: 400px;
+      width: 350px; }
+    .main-obras .varias-obras .edificaciones h3 {
+      color: #070733;
+      text-align: center;
+      padding: 7px; }
+    .main-obras .varias-obras .edificaciones .button {
+      padding: 7px;
+      margin: 5px;
+      color: #070733;
+      background-color: #f75317;
+      border-radius: 5px; }
 
 .main-nosotros h1 {
   background-color: #f75317;
@@ -161,6 +160,12 @@ h3 {
   padding: 10px;
   margin: 20px; }
 
+.main-nosotros h2 {
+  color: #070733;
+  text-align: center;
+  border-right: 4px;
+  padding: 10px; }
+
 .main-nosotros .servicios div {
   margin: 10px;
   padding: 15px;
@@ -169,18 +174,16 @@ h3 {
   flex-direction: column;
   align-content: center;
   align-items: center; }
-
-.main-nosotros .servicios img {
-  height: 350px;
-  width: 500px;
-  border-radius: 10px; }
-
-.main-nosotros .servicios p {
-  color: #f75317;
-  padding: 5px;
-  font-size: 35px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border-bottom: 5px solid #f75317; }
+  .main-nosotros .servicios div img {
+    height: 350px;
+    width: 500px;
+    border-radius: 10px; }
+  .main-nosotros .servicios div p {
+    color: #f75317;
+    padding: 5px;
+    font-size: 35px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border-bottom: 5px solid #f75317; }
 
 @media (max-width: 375px) {
   .servicios img {

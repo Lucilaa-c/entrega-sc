@@ -1,33 +1,50 @@
 .main-obras{
+    h1 {
+        background-color: $naranja;
+        color: $azul;
+        text-align: center;
+        font-family: $font_sans-serif;
+        padding: 10px;
+    }
+    
+    h2 {
+        color: $azul;
+        text-align: center;
+        border-right: 4px;
+        padding: 10px;
+    }
     .varias-obras {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
         align-content: center;
+        .edificaciones {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: $font_sans-serif;
+            box-shadow: 1px 1px 5px 1px;
+            padding: 10px;
+            margin: 15px;
+            img {
+                height: 400px;
+                width: 350px;
+            }
+            h3 {
+                color: $azul;
+                text-align: center;
+                padding: 7px;
+            }
+            .button {
+                padding: 7px;
+                margin: 5px;
+                color: $azul;
+                background-color: $naranja;
+                border-radius: 5px;
+            }
+        }
     }
     
-    .edificaciones {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-family: $font_sans-serif;
-        box-shadow: 1px 1px 5px 1px;
-        padding: 10px;
-        margin: 15px;
     
-    }
-    
-    .edificaciones img {
-        height: 400px;
-        width: 350px;
-    }
-    
-    .button {
-        padding: 7px;
-        margin: 5px;
-        color: $azul;
-        background-color: $naranja;
-        border-radius: 5px;
-    }
 }
