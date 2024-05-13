@@ -48,6 +48,19 @@
     } 
 
 }
+ .footer{
+     background-color: $azul;
+     .menu{
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+     }
+    
+ }
+
 
 @media screen and (max-width: 991px) {
     h1 {
