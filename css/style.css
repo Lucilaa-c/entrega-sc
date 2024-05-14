@@ -342,3 +342,24 @@
       .main-contacto .container .box-info {
         grid-area: box-info;
         width: 100%; } }
+
+.footer-s {
+  background-color: #070733;
+  width: auto;
+  height: auto; }
+  .footer-s .foot-sc li {
+    display: inline-block;
+    list-style-type: none;
+    align-items: center; }
+    .footer-s .foot-sc li a {
+      color: white;
+      text-decoration: none;
+      font-family: "Nunito Sans", sans-serif;
+      padding: 10px;
+      margin: 10px; }
+  .footer-s .iconos-footer li {
+    display: inline-block;
+    list-style-type: none;
+    align-items: center; }
+    .footer-s .iconos-footer li a {
+      color: #f75317; }

@@ -1,0 +1,37 @@
+.footer-s{
+    background-color: $azul;
+    width: auto;
+    height: auto;
+    position: absolute;
+
+    .foot-sc{
+        li{
+            display: inline-block;
+            list-style-type: none;
+            align-items: center;
+            a{
+                color: white;
+                text-decoration: none;
+                font-family: $font_sans-serif;
+                padding: 10px;
+                margin: 20px 10px;
+
+
+            }
+        }
+    }
+    .iconos-footer{
+        li{
+            display: inline-block;
+            list-style-type: none;
+            align-items: center;
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 5px;
+                margin10px
+            }
+            
+        }
+    }
+}
