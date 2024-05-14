@@ -47,6 +47,72 @@
     }
     
     
+    .obras1-sec{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+
+        .img-1 img,
+        .img-2 img,
+        .img-3 img,
+        .img-4 img,
+        .img-5 img,
+        .img-6 img {
+            width: 90%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            margin: 25px;
+            border: 3px solid $naranja;
+        }
+
+    }
+
+    .obras2-sec{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+
+        .photo-1,
+        .photo-2,
+        .photo-3,
+        .photo-4,
+        .photo-5,
+        .photo-6,
+        .photo-7,
+        .photo-8{
+            width: 50%;
+            height: 50%;
+            display: block;
+            border-radius: 8px;
+            margin: 15px;
+            padding: 10px;
+        }
+    }
+    .obras3-sec{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+
+        .imga-1,
+        .imga-2,
+        .imga-3,
+        .imga-4,
+        .imga-5,
+        .imga-6,
+        .imga-7,
+        .imga-8,
+        .imga-9{
+            width: 90%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            margin: 25px;
+            border: 3px solid $naranja;
+        }
+    }
+    
+    
 }
 
 @media (max-width:375px) {

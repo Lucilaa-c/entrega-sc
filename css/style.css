@@ -192,6 +192,62 @@
       background-color: #f75317;
       border-radius: 5px; }
 
+.main-obras .obras1-sec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center; }
+  .main-obras .obras1-sec .img-1 img,
+  .main-obras .obras1-sec .img-2 img,
+  .main-obras .obras1-sec .img-3 img,
+  .main-obras .obras1-sec .img-4 img,
+  .main-obras .obras1-sec .img-5 img,
+  .main-obras .obras1-sec .img-6 img {
+    width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin: 25px;
+    border: 3px solid #f75317; }
+
+.main-obras .obras2-sec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center; }
+  .main-obras .obras2-sec .photo-1,
+  .main-obras .obras2-sec .photo-2,
+  .main-obras .obras2-sec .photo-3,
+  .main-obras .obras2-sec .photo-4,
+  .main-obras .obras2-sec .photo-5,
+  .main-obras .obras2-sec .photo-6,
+  .main-obras .obras2-sec .photo-7,
+  .main-obras .obras2-sec .photo-8 {
+    width: 50%;
+    height: 50%;
+    display: block;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px; }
+
+.main-obras .obras3-sec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center; }
+  .main-obras .obras3-sec .imga-1,
+  .main-obras .obras3-sec .imga-2,
+  .main-obras .obras3-sec .imga-3,
+  .main-obras .obras3-sec .imga-4,
+  .main-obras .obras3-sec .imga-5,
+  .main-obras .obras3-sec .imga-6,
+  .main-obras .obras3-sec .imga-7,
+  .main-obras .obras3-sec .imga-8,
+  .main-obras .obras3-sec .imga-9 {
+    width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin: 25px;
+    border: 3px solid #f75317; }
+
 @media (max-width: 375px) {
   .edificaciones {
     width: 300px;
