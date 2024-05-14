@@ -73,7 +73,10 @@
             width: 100%;
             height: auto;
             display: block;
-            border-radius: 8px;
+            border: 2px solid $naranja;
+            margin: 15px;
+            padding: 4px;
+            
         }
     
         .img-1,
@@ -120,7 +123,9 @@
             width: 100%;
             height: auto;
             display: block;
-            border-radius: 8px;
+            border: 2px solid $naranja;
+            margin: 15px;
+            padding: 4px;
         }
     
         .photo-1,

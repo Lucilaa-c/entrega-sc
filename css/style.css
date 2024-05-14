@@ -106,7 +106,9 @@
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 8px; }
+    border: 2px solid #f75317;
+    margin: 15px;
+    padding: 4px; }
   .main-trabajosdestacados .realizadas-galeria .img-1,
   .main-trabajosdestacados .realizadas-galeria .img-4 {
     grid-column: 1; }
@@ -139,7 +141,9 @@
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 8px; }
+    border: 2px solid #f75317;
+    margin: 15px;
+    padding: 4px; }
   .main-trabajosdestacados .realizadas-thames .photo-1,
   .main-trabajosdestacados .realizadas-thames .photo-2,
   .main-trabajosdestacados .realizadas-thames .photo-3 {
