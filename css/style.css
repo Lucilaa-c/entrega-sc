@@ -345,21 +345,47 @@
 
 .footer-s {
   background-color: #070733;
-  width: auto;
-  height: auto; }
-  .footer-s .foot-sc li {
-    display: inline-block;
-    list-style-type: none;
+  width: 100%;
+  height: auto;
+  position: absolute; }
+  .footer-s .foot-sc {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0; }
+    .footer-s .foot-sc li {
+      list-style-type: none; }
+      .footer-s .foot-sc li a {
+        color: white;
+        text-decoration: none;
+        font-family: "Nunito Sans", sans-serif;
+        padding: 10px;
+        margin: 0 10px; }
+        .footer-s .foot-sc li a:hover {
+          color: #d77f37; }
+  .footer-s .iconos-footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0; }
+    .footer-s .iconos-footer li {
+      list-style-type: none; }
+      .footer-s .iconos-footer li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px; }
+        .footer-s .iconos-footer li a:hover {
+          color: #d77f37; }
+        .footer-s .iconos-footer li a ion-icon {
+          font-size: 40px; }
+
+@media only screen and (max-width: 768px) {
+  .foot-sc,
+  .iconos-footer {
+    flex-direction: row;
     align-items: center; }
-    .footer-s .foot-sc li a {
-      color: white;
-      text-decoration: none;
-      font-family: "Nunito Sans", sans-serif;
-      padding: 10px;
-      margin: 10px; }
-  .footer-s .iconos-footer li {
-    display: inline-block;
-    list-style-type: none;
-    align-items: center; }
-    .footer-s .iconos-footer li a {
-      color: #f75317; }
+    .foot-sc li,
+    .iconos-footer li {
+      text-align: center;
+      width: 100%; }
+      .foot-sc li a,
+      .iconos-footer li a {
+        font-size: 14px; } }
