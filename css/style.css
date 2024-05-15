@@ -249,8 +249,17 @@
     height: auto;
     display: block;
     border-radius: 8px;
-    margin: 25px;
-    border: 3px solid #f75317; }
+    margin: 9px; }
+    .main-obras .obras3-sec .imga-1 img,
+    .main-obras .obras3-sec .imga-2 img,
+    .main-obras .obras3-sec .imga-3 img,
+    .main-obras .obras3-sec .imga-4 img,
+    .main-obras .obras3-sec .imga-5 img,
+    .main-obras .obras3-sec .imga-6 img,
+    .main-obras .obras3-sec .imga-7 img,
+    .main-obras .obras3-sec .imga-8 img,
+    .main-obras .obras3-sec .imga-9 img {
+      width: 300px; }
 
 @media (max-width: 375px) {
   .edificaciones {
