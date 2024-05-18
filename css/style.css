@@ -196,6 +196,11 @@
       background-color: #f75317;
       border-radius: 5px; }
 
+.main-obras h3 {
+  color: #070733;
+  text-align: center;
+  padding: 7px; }
+
 .main-obras .obras1-sec {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -209,9 +214,15 @@
     width: 90%;
     height: auto;
     display: block;
-    border-radius: 8px;
-    margin: 25px;
-    border: 3px solid #f75317; }
+    margin: 25px; }
+    .main-obras .obras1-sec .img-1 img img,
+    .main-obras .obras1-sec .img-2 img img,
+    .main-obras .obras1-sec .img-3 img img,
+    .main-obras .obras1-sec .img-4 img img,
+    .main-obras .obras1-sec .img-5 img img,
+    .main-obras .obras1-sec .img-6 img img {
+      width: 350px;
+      border-radius: 10px; }
 
 .main-obras .obras2-sec {
   display: grid;
@@ -225,12 +236,20 @@
   .main-obras .obras2-sec .photo-6,
   .main-obras .obras2-sec .photo-7,
   .main-obras .obras2-sec .photo-8 {
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: auto;
     display: block;
-    border-radius: 8px;
-    margin: 15px;
-    padding: 10px; }
+    margin: 25px; }
+    .main-obras .obras2-sec .photo-1 img,
+    .main-obras .obras2-sec .photo-2 img,
+    .main-obras .obras2-sec .photo-3 img,
+    .main-obras .obras2-sec .photo-4 img,
+    .main-obras .obras2-sec .photo-5 img,
+    .main-obras .obras2-sec .photo-6 img,
+    .main-obras .obras2-sec .photo-7 img,
+    .main-obras .obras2-sec .photo-8 img {
+      width: 350px;
+      border-radius: 10px; }
 
 .main-obras .obras3-sec {
   display: grid;
@@ -248,8 +267,7 @@
     width: 90%;
     height: auto;
     display: block;
-    border-radius: 8px;
-    margin: 9px; }
+    margin: 25px; }
     .main-obras .obras3-sec .imga-1 img,
     .main-obras .obras3-sec .imga-2 img,
     .main-obras .obras3-sec .imga-3 img,
@@ -259,7 +277,8 @@
     .main-obras .obras3-sec .imga-7 img,
     .main-obras .obras3-sec .imga-8 img,
     .main-obras .obras3-sec .imga-9 img {
-      width: 300px; }
+      width: 350px;
+      border-radius: 10px; }
 
 @media (max-width: 375px) {
   .edificaciones {

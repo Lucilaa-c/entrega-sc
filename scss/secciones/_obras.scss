@@ -45,6 +45,11 @@
             }
         }
     }
+    h3 {
+        color: rgb(7, 7, 51);
+        text-align: center;
+        padding: 7px;
+    }
     
     
     .obras1-sec{
@@ -58,12 +63,15 @@
         .img-4 img,
         .img-5 img,
         .img-6 img {
+            img{
+                width: 350px;
+                border-radius: 10px;
+            }
+            
             width: 90%;
             height: auto;
             display: block;
-            border-radius: 8px;
             margin: 25px;
-            border: 3px solid $naranja;
         }
 
     }
@@ -81,12 +89,16 @@
         .photo-6,
         .photo-7,
         .photo-8{
-            width: 50%;
-            height: 50%;
+            img{
+                width: 350px;
+                border-radius: 10px;
+            }
+            width: 90%;
+            height: auto;
             display: block;
-            border-radius: 8px;
-            margin: 15px;
-            padding: 10px;
+            margin: 25px;
+            
+            
         }
     }
     .obras3-sec{
@@ -104,13 +116,14 @@
         .imga-8,
         .imga-9{
             img{
-                width: 300px;
+                width: 350px;
+                border-radius: 10px;
             }
             width: 90%;
             height: auto;
             display: block;
-            border-radius: 8px;
-            margin: 9px;
+            margin: 25px;
+            
            
         }
         
