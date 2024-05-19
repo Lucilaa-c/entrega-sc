@@ -63,15 +63,18 @@
         .img-4 img,
         .img-5 img,
         .img-6 img {
-            img{
-                width: 350px;
-                border-radius: 10px;
-            }
             
-            width: 90%;
+            width: 80%;
             height: auto;
             display: block;
-            margin: 25px;
+            margin: 30px;
+            border-radius: 10px;
+            &:hover{
+                transform: scale(1.12);
+                transition: 3s;
+
+            }
+
         }
 
     }
@@ -92,11 +95,13 @@
             img{
                 width: 350px;
                 border-radius: 10px;
+               
             }
             width: 90%;
             height: auto;
             display: block;
-            margin: 25px;
+            margin: 30px;
+           
             
             
         }
@@ -113,8 +118,7 @@
         .imga-5,
         .imga-6,
         .imga-7,
-        .imga-8,
-        .imga-9{
+        .imga-8{
             img{
                 width: 350px;
                 border-radius: 10px;
@@ -122,7 +126,7 @@
             width: 90%;
             height: auto;
             display: block;
-            margin: 25px;
+            margin: 30px;
             
            
         }
@@ -150,6 +154,30 @@
     
         }
 
+    }
+    h3 {
+        color: rgb(7, 7, 51);
+        text-align: center;
+        padding: 7px;
+    }
+    .obras1-sec{
+        display: grid;
+        grid-template-columns: 1 ;
+        justify-items: center;
+
+        .img-1 img,
+        .img-2 img,
+        .img-3 img,
+        .img-4 img,
+        .img-5 img,
+        .img-6 img {
+            
+            width: 50%;
+            height: auto;
+            display: block;
+            margin: 10px;
+            border-radius: 3px;
+        }
     }
 
 }

@@ -39,7 +39,9 @@
   .color-navegacion .nav-izq {
     justify-content: flex-end;
     flex-basis: 0;
-    flex-grow: 0; }
+    flex-grow: 0;
+    padding: 3px;
+    margin: 10px; }
     .color-navegacion .nav-izq ul .dropdown-menu li a {
       color: #070733; }
     .color-navegacion .nav-izq ul li a:hover {
@@ -211,18 +213,19 @@
   .main-obras .obras1-sec .img-4 img,
   .main-obras .obras1-sec .img-5 img,
   .main-obras .obras1-sec .img-6 img {
-    width: 90%;
+    width: 80%;
     height: auto;
     display: block;
-    margin: 25px; }
-    .main-obras .obras1-sec .img-1 img img,
-    .main-obras .obras1-sec .img-2 img img,
-    .main-obras .obras1-sec .img-3 img img,
-    .main-obras .obras1-sec .img-4 img img,
-    .main-obras .obras1-sec .img-5 img img,
-    .main-obras .obras1-sec .img-6 img img {
-      width: 350px;
-      border-radius: 10px; }
+    margin: 30px;
+    border-radius: 10px; }
+    .main-obras .obras1-sec .img-1 img:hover,
+    .main-obras .obras1-sec .img-2 img:hover,
+    .main-obras .obras1-sec .img-3 img:hover,
+    .main-obras .obras1-sec .img-4 img:hover,
+    .main-obras .obras1-sec .img-5 img:hover,
+    .main-obras .obras1-sec .img-6 img:hover {
+      transform: scale(1.12);
+      transition: 3s; }
 
 .main-obras .obras2-sec {
   display: grid;
@@ -239,7 +242,7 @@
     width: 90%;
     height: auto;
     display: block;
-    margin: 25px; }
+    margin: 30px; }
     .main-obras .obras2-sec .photo-1 img,
     .main-obras .obras2-sec .photo-2 img,
     .main-obras .obras2-sec .photo-3 img,
@@ -262,12 +265,11 @@
   .main-obras .obras3-sec .imga-5,
   .main-obras .obras3-sec .imga-6,
   .main-obras .obras3-sec .imga-7,
-  .main-obras .obras3-sec .imga-8,
-  .main-obras .obras3-sec .imga-9 {
+  .main-obras .obras3-sec .imga-8 {
     width: 90%;
     height: auto;
     display: block;
-    margin: 25px; }
+    margin: 30px; }
     .main-obras .obras3-sec .imga-1 img,
     .main-obras .obras3-sec .imga-2 img,
     .main-obras .obras3-sec .imga-3 img,
@@ -275,8 +277,7 @@
     .main-obras .obras3-sec .imga-5 img,
     .main-obras .obras3-sec .imga-6 img,
     .main-obras .obras3-sec .imga-7 img,
-    .main-obras .obras3-sec .imga-8 img,
-    .main-obras .obras3-sec .imga-9 img {
+    .main-obras .obras3-sec .imga-8 img {
       width: 350px;
       border-radius: 10px; }
 
@@ -292,7 +293,26 @@
       padding: 4px; }
     .edificaciones .button {
       padding: 1px;
-      margin: 2px; } }
+      margin: 2px; }
+  h3 {
+    color: #070733;
+    text-align: center;
+    padding: 7px; }
+  .obras1-sec {
+    display: grid;
+    grid-template-columns: 1;
+    justify-items: center; }
+    .obras1-sec .img-1 img,
+    .obras1-sec .img-2 img,
+    .obras1-sec .img-3 img,
+    .obras1-sec .img-4 img,
+    .obras1-sec .img-5 img,
+    .obras1-sec .img-6 img {
+      width: 50%;
+      height: auto;
+      display: block;
+      margin: 10px;
+      border-radius: 3px; } }
 
 .main-nosotros h1 {
   background-color: #f75317;
