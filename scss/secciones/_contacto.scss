@@ -1,87 +1,49 @@
 .body-contacto {
   background-color: $azul;
 }
-
-.main-contacto {
-  position: absolute;
-  left: 30%;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  align-items: start;
-  padding: 20px;
-  background-color: $azul;
-  max-width: 1200px;
-
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "formulario box-info";
-  }
-
-  .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-
-    .formulario {
-      background-color: $azul;
-      padding: 20px;
-      color: $naranja;
-      border-radius: 10px;
-
-      input,
-      textarea {
-        margin: 10px 0;
-        padding: 10px;
-        border: 2px solid $naranja;
-        border-radius: 5px;
-        width: 400px;
-      }
-
-      .pregunta-contacto {
-        margin-top: 20px;
-        text-align: center;
-      }
-    }
-
-    .box-info {
-      background-color: $azul;
-      padding: 20px;
-      color: $naranja;
-      border-radius: 10px;
-
-      .datos {
-        margin-bottom: 20px;
-
-        p {
-          margin: 5px 0;
+.main-contacto{
+  .container{
+    .box-info{
+      .datos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .contacto{
+          color: $naranja;
+        }
+        p{
+          color: $blanco;
+          .icon-contac{
+            color: $naranja;
+            padding-right: 8px;
+  
+          }
         }
       }
-
-      iframe {
-        border: 0;
-        border-radius: 10px;
-        width: 100%;
-        height: 300px;
-      }
     }
-
-    @media (min-width: 768px) {
-      grid-template-areas: "formulario box-info";
-    }
-
-    .formulario {
-      @media (min-width: 768px) {
-        grid-area: formulario;
-        width: 100%;
+    .formulario{
+      display: flex;
+      flex-direction: column;
+      .form-cont{
+        width: 50%;
+        height: 50%;
+        padding: 8px;
+        margin: 15px 30px 30px 300px; 
+        background-color: transparent;
       }
-    }
-
-    .box-info {
-      @media (min-width: 768px) {
-        grid-area: box-info;
-        width: 100%;
+      .pregunta-contacto{
+        color: $naranja;
+        margin-left: 300px;
       }
+      
+
+    }
+    .encontrarnos{
+      color: $blanco;
+      font-family: $font_arial;
+      padding: 22px 20px 15px 300px;
     }
   }
+
 }
+

@@ -95,14 +95,17 @@
             img{
                 width: 350px;
                 border-radius: 10px;
+                &:hover{
+                    transform: scale(1.12);
+                    transition: 3s;
+    
+                }
                
             }
             width: 90%;
             height: auto;
             display: block;
             margin: 30px;
-           
-            
             
         }
     }
@@ -122,12 +125,16 @@
             img{
                 width: 350px;
                 border-radius: 10px;
+                &:hover{
+                    transform: scale(1.12);
+                    transition: 3s;
+    
+                }
             }
             width: 90%;
             height: auto;
             display: block;
             margin: 30px;
-            
            
         }
         

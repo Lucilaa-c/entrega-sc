@@ -253,6 +253,16 @@
     .main-obras .obras2-sec .photo-8 img {
       width: 350px;
       border-radius: 10px; }
+      .main-obras .obras2-sec .photo-1 img:hover,
+      .main-obras .obras2-sec .photo-2 img:hover,
+      .main-obras .obras2-sec .photo-3 img:hover,
+      .main-obras .obras2-sec .photo-4 img:hover,
+      .main-obras .obras2-sec .photo-5 img:hover,
+      .main-obras .obras2-sec .photo-6 img:hover,
+      .main-obras .obras2-sec .photo-7 img:hover,
+      .main-obras .obras2-sec .photo-8 img:hover {
+        transform: scale(1.12);
+        transition: 3s; }
 
 .main-obras .obras3-sec {
   display: grid;
@@ -280,6 +290,16 @@
     .main-obras .obras3-sec .imga-8 img {
       width: 350px;
       border-radius: 10px; }
+      .main-obras .obras3-sec .imga-1 img:hover,
+      .main-obras .obras3-sec .imga-2 img:hover,
+      .main-obras .obras3-sec .imga-3 img:hover,
+      .main-obras .obras3-sec .imga-4 img:hover,
+      .main-obras .obras3-sec .imga-5 img:hover,
+      .main-obras .obras3-sec .imga-6 img:hover,
+      .main-obras .obras3-sec .imga-7 img:hover,
+      .main-obras .obras3-sec .imga-8 img:hover {
+        transform: scale(1.12);
+        transition: 3s; }
 
 @media (max-width: 375px) {
   .edificaciones {
@@ -413,64 +433,35 @@
 .body-contacto {
   background-color: #070733; }
 
-.main-contacto {
-  position: absolute;
-  left: 30%;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  align-items: start;
-  padding: 20px;
-  background-color: #070733;
-  max-width: 1200px; }
-  @media (min-width: 768px) {
-    .main-contacto {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: "formulario box-info"; } }
-  .main-contacto .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px; }
-    .main-contacto .container .formulario {
-      background-color: #070733;
-      padding: 20px;
+.main-contacto .container .box-info .datos {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .main-contacto .container .box-info .datos .contacto {
+    color: #f75317; }
+  .main-contacto .container .box-info .datos p {
+    color: white; }
+    .main-contacto .container .box-info .datos p .icon-contac {
       color: #f75317;
-      border-radius: 10px; }
-      .main-contacto .container .formulario input,
-      .main-contacto .container .formulario textarea {
-        margin: 10px 0;
-        padding: 10px;
-        border: 2px solid #f75317;
-        border-radius: 5px;
-        width: 400px; }
-      .main-contacto .container .formulario .pregunta-contacto {
-        margin-top: 20px;
-        text-align: center; }
-    .main-contacto .container .box-info {
-      background-color: #070733;
-      padding: 20px;
-      color: #f75317;
-      border-radius: 10px; }
-      .main-contacto .container .box-info .datos {
-        margin-bottom: 20px; }
-        .main-contacto .container .box-info .datos p {
-          margin: 5px 0; }
-      .main-contacto .container .box-info iframe {
-        border: 0;
-        border-radius: 10px;
-        width: 100%;
-        height: 300px; }
-    @media (min-width: 768px) {
-      .main-contacto .container {
-        grid-template-areas: "formulario box-info"; } }
-    @media (min-width: 768px) {
-      .main-contacto .container .formulario {
-        grid-area: formulario;
-        width: 100%; } }
-    @media (min-width: 768px) {
-      .main-contacto .container .box-info {
-        grid-area: box-info;
-        width: 100%; } }
+      padding-right: 8px; }
+
+.main-contacto .container .formulario {
+  display: flex;
+  flex-direction: column; }
+  .main-contacto .container .formulario .form-cont {
+    width: 50%;
+    height: 50%;
+    padding: 8px;
+    margin: 15px 30px 30px 300px;
+    background-color: transparent; }
+  .main-contacto .container .formulario .pregunta-contacto {
+    color: #f75317;
+    margin-left: 300px; }
+
+.main-contacto .container .encontrarnos {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 22px 20px 15px 300px; }
 
 .footer-s {
   background-color: #070733;
