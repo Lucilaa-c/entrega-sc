@@ -30,6 +30,8 @@
         padding: 8px;
         margin: 15px 30px 30px 300px; 
         background-color: transparent;
+        border-bottom: 2px solid $naranja;
+        color: $blanco
       }
       .pregunta-contacto{
         color: $naranja;
@@ -38,11 +40,11 @@
       
 
     }
-    .encontrarnos{
-      color: $blanco;
-      font-family: $font_arial;
-      padding: 22px 20px 15px 300px;
-    }
+  }
+  .encontrarnos{
+    color: $blanco;
+    font-family: $font_arial;
+    padding: 22px 20px 25px 70px;
   }
 
 }

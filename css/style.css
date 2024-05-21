@@ -453,15 +453,17 @@
     height: 50%;
     padding: 8px;
     margin: 15px 30px 30px 300px;
-    background-color: transparent; }
+    background-color: transparent;
+    border-bottom: 2px solid #f75317;
+    color: white; }
   .main-contacto .container .formulario .pregunta-contacto {
     color: #f75317;
     margin-left: 300px; }
 
-.main-contacto .container .encontrarnos {
+.main-contacto .encontrarnos {
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding: 22px 20px 15px 300px; }
+  padding: 22px 20px 25px 70px; }
 
 .footer-s {
   background-color: #070733;
