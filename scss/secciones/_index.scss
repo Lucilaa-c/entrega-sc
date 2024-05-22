@@ -17,15 +17,15 @@
     
     }
 }
-@media (max-width:375px){
+@media (max-width:600px){
     .main-index{
         .fondo-inicio{
             height: 692px;
         }
         .texto-index{
             margin: 4%;
-            padding-left: 14%;
-            font-size: 18px;
+            padding-left: 50%;
+            font-size: 25px;
             font-family: $font_arial;
             text-align: initial;
         }

@@ -143,7 +143,7 @@
     
 }
 
-@media (max-width:375px) {
+@media (max-width:600px) {
     .edificaciones {
         width: 300px;
         height: 340px;
@@ -169,7 +169,7 @@
     }
     .obras1-sec{
         display: grid;
-        grid-template-columns: 1 ;
+        grid-template-columns: repeat(1, 1fr);
         justify-items: center;
 
         .img-1 img,
@@ -179,12 +179,73 @@
         .img-5 img,
         .img-6 img {
             
-            width: 50%;
-            height: auto;
+            width: 295px;
+            height: 200px;
             display: block;
-            margin: 10px;
+            margin: 5px;
             border-radius: 3px;
         }
     }
+    .obras2-sec{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+
+        .photo-1,
+        .photo-2,
+        .photo-3,
+        .photo-4,
+        .photo-5,
+        .photo-6,
+        .photo-7,
+        .photo-8{
+            img{
+                width: 350px;
+                border-radius: 10px;
+                &:hover{
+                    transform: scale(1.12);
+                    transition: 3s;
+    
+                }
+               
+            }
+            width: 90%;
+            height: auto;
+            display: block;
+            margin: 30px;
+            
+        }
+    }
+    .obras3-sec{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+
+        .imga-1,
+        .imga-2,
+        .imga-3,
+        .imga-4,
+        .imga-5,
+        .imga-6,
+        .imga-7,
+        .imga-8{
+            img{
+                width: 350px;
+                border-radius: 10px;
+                &:hover{
+                    transform: scale(1.12);
+                    transition: 3s;
+    
+                }
+            }
+            width: 90%;
+            height: auto;
+            display: block;
+            margin: 30px;
+           
+        }
+        
+    }
+
 
 }
