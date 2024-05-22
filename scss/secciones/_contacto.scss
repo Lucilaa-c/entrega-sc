@@ -48,4 +48,35 @@
   }
 
 }
+@media (max-width: 375px){
+  .main-contacto{
+    .container{
+      .formulario{
+        .form-cont{
+          width: 87%;
+          height: 50%;
+          padding: 7px;
+          margin: 10px 0px 25px 35px; 
+          background-color: transparent;
+          border-bottom: 2px solid $naranja;
+          color: $blanco
+        }
+        .pregunta-contacto{
+          color: $naranja;
+          margin-left: 35px;
+        }
+      }
+    }
+    .encontrarnos{
+      color: $blanco;
+      font-family: $font_arial;
+      padding: 22px 0px 25px 30px;
+    }
+    iframe{
+      height: 125px;
+      width: 301px;
+    }
+  }
+
+}
 
