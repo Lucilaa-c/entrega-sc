@@ -9,7 +9,8 @@
         flex-direction: column;
         align-items: center;
         .contacto{
-          color: $naranja;
+          color: $naranja !important;
+          background-color: $azul;
         }
         p{
           color: $blanco;
@@ -29,14 +30,14 @@
         width: 50%;
         height: 50%;
         padding: 8px;
-        margin: 15px 30px 30px 300px; 
+        margin: 15px 30px 30px 38px; 
         background-color: transparent;
         border-bottom: 2px solid $naranja;
         color: $blanco
       }
       .pregunta-contacto{
         color: $naranja;
-        margin-left: 300px;
+        
       }
       
 

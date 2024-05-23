@@ -492,7 +492,8 @@ h1, .main-trabajosdestacados h1 {
   flex-direction: column;
   align-items: center; }
   .main-contacto .container .box-info .datos .contacto {
-    color: #f75317; }
+    color: #f75317 !important;
+    background-color: #070733; }
   .main-contacto .container .box-info .datos p {
     color: white; }
     .main-contacto .container .box-info .datos p .icon-contac {
@@ -507,13 +508,12 @@ h1, .main-trabajosdestacados h1 {
     width: 50%;
     height: 50%;
     padding: 8px;
-    margin: 15px 30px 30px 300px;
+    margin: 15px 30px 30px 38px;
     background-color: transparent;
     border-bottom: 2px solid #f75317;
     color: white; }
   .main-contacto .container .formulario .pregunta-contacto {
-    color: #f75317;
-    margin-left: 300px; }
+    color: #f75317; }
 
 .main-contacto .encontrarnos {
   color: white;
