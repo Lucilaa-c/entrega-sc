@@ -5,6 +5,7 @@
         text-align: center;
         font-family: $font_sans-serif;
         padding: 10px;
+
     }
     
     h2 {
@@ -21,8 +22,8 @@
         align-content: center;
         .edificaciones {
             display: flex;
-            flex-direction: column;
-            align-items: center;
+        flex-direction: column;
+        align-items: center;
             font-family: $font_sans-serif;
             box-shadow: 1px 1px 5px 1px;
             padding: 10px;
@@ -37,11 +38,20 @@
                 padding: 7px;
             }
             .button {
-                padding: 7px;
-                margin: 5px;
-                color: $azul;
-                background-color: $naranja;
+                font-family: $font_sans-serif;
+                margin-top: 20px;
+                padding: 10px 20px;
+                font-size: 16px;
+                background-color: $azul;
+                color: $blanco;
+                border: none;
                 border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+    
+                &:hover {
+                    background-color: $naranja;
+                }
             }
         }
     }
@@ -54,8 +64,12 @@
     
     .obras1-sec{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         justify-items: center;
+        gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-auto-flow: dense;
 
         .img-1 img,
         .img-2 img,
@@ -63,7 +77,15 @@
         .img-4 img,
         .img-5 img,
         .img-6 img {
-            
+            img{
+                width: 318px;
+                border-radius: 10px;
+                &:hover{
+                    transform: scale(1.12);
+                transition: 3s;
+    
+                }
+            }
             width: 80%;
             height: auto;
             display: block;
@@ -81,8 +103,12 @@
 
     .obras2-sec{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         justify-items: center;
+        gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-auto-flow: dense;
 
         .photo-1,
         .photo-2,
@@ -93,11 +119,11 @@
         .photo-7,
         .photo-8{
             img{
-                width: 350px;
+                width: 318px;
                 border-radius: 10px;
                 &:hover{
                     transform: scale(1.12);
-                    transition: 3s;
+                transition: 3s;
     
                 }
                
@@ -111,8 +137,12 @@
     }
     .obras3-sec{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         justify-items: center;
+        gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-auto-flow: dense;
 
         .imga-1,
         .imga-2,
@@ -123,11 +153,11 @@
         .imga-7,
         .imga-8{
             img{
-                width: 350px;
+                width: 318px;
                 border-radius: 10px;
                 &:hover{
                     transform: scale(1.12);
-                    transition: 3s;
+                transition: 3s;
     
                 }
             }
@@ -143,141 +173,16 @@
     
 }
 
-@media (max-width:600px) {
-    .varias-obras{
-        .edificaciones {
-            padding: 6px;
-            margin: 9px;
-            img {
-                height: 363px;
-                width: 306px;
-            }
-            h3 {
-                text-align: center;
-                padding: 4px;
-            }
-            .button {
-                padding: 1px;
-                margin: 2px;
-        
-            }
-    }
-
-    }
-    h3 {
-        color: rgb(7, 7, 51);
-        text-align: center;
-        padding: 7px;
-    }
-    .obras1-sec{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-
-        .img-1 img,
-        .img-2 img,
-        .img-3 img,
-        .img-4 img,
-        .img-5 img,
-        .img-6 img {
-            
-            width: 295px;
-            height: 250px;
-            display: block;
-            margin: 5px;
-            border-radius: 3px;
-        }
-
-        .img-1,
-        .img-4 {
-            grid-column: 1;
-        }
-    
-        .img-2,
-        .img-5 {
-            grid-column: 2;
-        }
-    
-        .img-3,
-        .img-6 {
-            grid-column: 3;
-        }
-    
-        .img-1,
-        .img-2,
-        .img-3 {
-            grid-row: 1;
-        }
-    
-        .img-4,
-        .img-5,
-        .img-6 {
-            grid-row: 2;
-        }
-
-
-    }
-    .obras2-sec{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
-
-        .photo-1,
-        .photo-2,
-        .photo-3,
-        .photo-4,
-        .photo-5,
-        .photo-6,
-        .photo-7,
-        .photo-8{
-            img{
-                width: 295px;
-                height: 250px;
-                border-radius: 10px;
-                &:hover{
-                    transform: scale(1.12);
-                    transition: 3s;
-    
+@media (max-width:600px){
+    .main-obras{
+        .varias-obras{
+            .edificaciones{
+                img{
+                    height: 369px;
+                    width: 320px;
                 }
-               
+
             }
-            width: 90%;
-            height: auto;
-            display: block;
-            margin: 30px;
-            
         }
     }
-    .obras3-sec{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
-
-        .imga-1,
-        .imga-2,
-        .imga-3,
-        .imga-4,
-        .imga-5,
-        .imga-6,
-        .imga-7,
-        .imga-8{
-            img{
-                width: 350px;
-                border-radius: 10px;
-                &:hover{
-                    transform: scale(1.12);
-                    transition: 3s;
-    
-                }
-            }
-            width: 90%;
-            height: auto;
-            display: block;
-            margin: 30px;
-           
-        }
-        
-    }
-
-
 }

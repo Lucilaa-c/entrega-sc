@@ -256,11 +256,18 @@
       text-align: center;
       padding: 7px; }
     .main-obras .varias-obras .edificaciones .button {
-      padding: 7px;
-      margin: 5px;
-      color: #070733;
-      background-color: #f75317;
-      border-radius: 5px; }
+      font-family: "Nunito Sans", sans-serif;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #070733;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease; }
+      .main-obras .varias-obras .edificaciones .button:hover {
+        background-color: #f75317; }
 
 .main-obras h3 {
   color: #070733;
@@ -269,8 +276,12 @@
 
 .main-obras .obras1-sec {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center; }
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-auto-flow: dense; }
   .main-obras .obras1-sec .img-1 img,
   .main-obras .obras1-sec .img-2 img,
   .main-obras .obras1-sec .img-3 img,
@@ -282,6 +293,22 @@
     display: block;
     margin: 30px;
     border-radius: 10px; }
+    .main-obras .obras1-sec .img-1 img img,
+    .main-obras .obras1-sec .img-2 img img,
+    .main-obras .obras1-sec .img-3 img img,
+    .main-obras .obras1-sec .img-4 img img,
+    .main-obras .obras1-sec .img-5 img img,
+    .main-obras .obras1-sec .img-6 img img {
+      width: 318px;
+      border-radius: 10px; }
+      .main-obras .obras1-sec .img-1 img img:hover,
+      .main-obras .obras1-sec .img-2 img img:hover,
+      .main-obras .obras1-sec .img-3 img img:hover,
+      .main-obras .obras1-sec .img-4 img img:hover,
+      .main-obras .obras1-sec .img-5 img img:hover,
+      .main-obras .obras1-sec .img-6 img img:hover {
+        transform: scale(1.12);
+        transition: 3s; }
     .main-obras .obras1-sec .img-1 img:hover,
     .main-obras .obras1-sec .img-2 img:hover,
     .main-obras .obras1-sec .img-3 img:hover,
@@ -293,8 +320,12 @@
 
 .main-obras .obras2-sec {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center; }
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-auto-flow: dense; }
   .main-obras .obras2-sec .photo-1,
   .main-obras .obras2-sec .photo-2,
   .main-obras .obras2-sec .photo-3,
@@ -315,7 +346,7 @@
     .main-obras .obras2-sec .photo-6 img,
     .main-obras .obras2-sec .photo-7 img,
     .main-obras .obras2-sec .photo-8 img {
-      width: 350px;
+      width: 318px;
       border-radius: 10px; }
       .main-obras .obras2-sec .photo-1 img:hover,
       .main-obras .obras2-sec .photo-2 img:hover,
@@ -330,8 +361,12 @@
 
 .main-obras .obras3-sec {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center; }
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-auto-flow: dense; }
   .main-obras .obras3-sec .imga-1,
   .main-obras .obras3-sec .imga-2,
   .main-obras .obras3-sec .imga-3,
@@ -352,7 +387,7 @@
     .main-obras .obras3-sec .imga-6 img,
     .main-obras .obras3-sec .imga-7 img,
     .main-obras .obras3-sec .imga-8 img {
-      width: 350px;
+      width: 318px;
       border-radius: 10px; }
       .main-obras .obras3-sec .imga-1 img:hover,
       .main-obras .obras3-sec .imga-2 img:hover,
@@ -366,127 +401,9 @@
         transition: 3s; }
 
 @media (max-width: 600px) {
-  .varias-obras .edificaciones {
-    padding: 6px;
-    margin: 9px; }
-    .varias-obras .edificaciones img {
-      height: 363px;
-      width: 306px; }
-    .varias-obras .edificaciones h3 {
-      text-align: center;
-      padding: 4px; }
-    .varias-obras .edificaciones .button {
-      padding: 1px;
-      margin: 2px; }
-  h3 {
-    color: #070733;
-    text-align: center;
-    padding: 7px; }
-  .obras1-sec {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center; }
-    .obras1-sec .img-1 img,
-    .obras1-sec .img-2 img,
-    .obras1-sec .img-3 img,
-    .obras1-sec .img-4 img,
-    .obras1-sec .img-5 img,
-    .obras1-sec .img-6 img {
-      width: 295px;
-      height: 250px;
-      display: block;
-      margin: 5px;
-      border-radius: 3px; }
-    .obras1-sec .img-1,
-    .obras1-sec .img-4 {
-      grid-column: 1; }
-    .obras1-sec .img-2,
-    .obras1-sec .img-5 {
-      grid-column: 2; }
-    .obras1-sec .img-3,
-    .obras1-sec .img-6 {
-      grid-column: 3; }
-    .obras1-sec .img-1,
-    .obras1-sec .img-2,
-    .obras1-sec .img-3 {
-      grid-row: 1; }
-    .obras1-sec .img-4,
-    .obras1-sec .img-5,
-    .obras1-sec .img-6 {
-      grid-row: 2; }
-  .obras2-sec {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center; }
-    .obras2-sec .photo-1,
-    .obras2-sec .photo-2,
-    .obras2-sec .photo-3,
-    .obras2-sec .photo-4,
-    .obras2-sec .photo-5,
-    .obras2-sec .photo-6,
-    .obras2-sec .photo-7,
-    .obras2-sec .photo-8 {
-      width: 90%;
-      height: auto;
-      display: block;
-      margin: 30px; }
-      .obras2-sec .photo-1 img,
-      .obras2-sec .photo-2 img,
-      .obras2-sec .photo-3 img,
-      .obras2-sec .photo-4 img,
-      .obras2-sec .photo-5 img,
-      .obras2-sec .photo-6 img,
-      .obras2-sec .photo-7 img,
-      .obras2-sec .photo-8 img {
-        width: 295px;
-        height: 250px;
-        border-radius: 10px; }
-        .obras2-sec .photo-1 img:hover,
-        .obras2-sec .photo-2 img:hover,
-        .obras2-sec .photo-3 img:hover,
-        .obras2-sec .photo-4 img:hover,
-        .obras2-sec .photo-5 img:hover,
-        .obras2-sec .photo-6 img:hover,
-        .obras2-sec .photo-7 img:hover,
-        .obras2-sec .photo-8 img:hover {
-          transform: scale(1.12);
-          transition: 3s; }
-  .obras3-sec {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center; }
-    .obras3-sec .imga-1,
-    .obras3-sec .imga-2,
-    .obras3-sec .imga-3,
-    .obras3-sec .imga-4,
-    .obras3-sec .imga-5,
-    .obras3-sec .imga-6,
-    .obras3-sec .imga-7,
-    .obras3-sec .imga-8 {
-      width: 90%;
-      height: auto;
-      display: block;
-      margin: 30px; }
-      .obras3-sec .imga-1 img,
-      .obras3-sec .imga-2 img,
-      .obras3-sec .imga-3 img,
-      .obras3-sec .imga-4 img,
-      .obras3-sec .imga-5 img,
-      .obras3-sec .imga-6 img,
-      .obras3-sec .imga-7 img,
-      .obras3-sec .imga-8 img {
-        width: 350px;
-        border-radius: 10px; }
-        .obras3-sec .imga-1 img:hover,
-        .obras3-sec .imga-2 img:hover,
-        .obras3-sec .imga-3 img:hover,
-        .obras3-sec .imga-4 img:hover,
-        .obras3-sec .imga-5 img:hover,
-        .obras3-sec .imga-6 img:hover,
-        .obras3-sec .imga-7 img:hover,
-        .obras3-sec .imga-8 img:hover {
-          transform: scale(1.12);
-          transition: 3s; } }
+  .main-obras .varias-obras .edificaciones img {
+    height: 369px;
+    width: 320px; } }
 
 .main-nosotros h1 {
   background-color: #f75317;
