@@ -10,11 +10,10 @@
         padding: 20px 0;
 
         li {
-            list-style-type: none;
+            @extend .estilos;
 
             a {
-                list-style-type: none;
-        color: $blanco;
+                @extend .estilos;
                 font-family: $font_sans-serif;
                 padding: 10px;
                 margin: 0 10px;
@@ -26,9 +25,7 @@
         }
     }
     .by{
-        list-style-type: none;
-        color: $blanco;
-        text-decoration: none;
+        @extend .estilos;
         align-items: center;
         font-family: uppercase;
         padding: 3px 5px 0px 47%;
@@ -44,7 +41,7 @@
 
             a {
                 list-style-type: none;
-        color: $blanco;
+                color: $blanco;
                 padding: 5px;
 
                 &:hover {

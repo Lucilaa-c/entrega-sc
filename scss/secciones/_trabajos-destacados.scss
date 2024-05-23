@@ -1,6 +1,6 @@
 .main-trabajosdestacados{
     h1 {
-        @extend h1 ;
+        @extend .titulos-grandes;
     }
     .terminados {
         display: flex;
@@ -26,20 +26,7 @@
             }
     
             .button {
-                font-family: $font_sans-serif;
-                margin-top: 20px;
-                padding: 10px 20px;
-                font-size: 16px;
-                background-color: $azul;
-                color: $blanco;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                transition: background-color 0.3s ease;
-    
-                &:hover {
-                    background-color: $naranja;
-                }
+                @extend .button;
             }
         }
     }
@@ -66,12 +53,7 @@
         .img-4 img,
         .img-5 img,
         .img-6 img {
-            width: 100%;
-            height: auto;
-            display: block;
-            border: 2px solid $naranja;
-            margin: 15px;
-            padding: 4px;
+            @extend .th-esti;
             
         }
     
@@ -116,12 +98,7 @@
         .photo-1 img,
         .photo-2 img,
         .photo-3 img {
-            width: 100%;
-            height: auto;
-            display: block;
-            border: 2px solid $naranja;
-            margin: 15px;
-            padding: 4px;
+           @extend .th-esti;
         }
     
         .photo-1,

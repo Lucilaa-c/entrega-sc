@@ -1,10 +1,175 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
-h1, .main-trabajosdestacados h1 {
+.titulos-grandes, .main-trabajosdestacados h1, .main-obras h1, .main-nosotros h1 {
   background-color: #f75317;
   color: #070733;
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
   padding: 10px; }
+
+.button, .main-trabajosdestacados .terminados .ll-container .button, .main-obras .varias-obras .edificaciones .button {
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #070733;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; }
+  .button:hover, .main-trabajosdestacados .terminados .ll-container .button:hover, .main-obras .varias-obras .edificaciones .button:hover {
+    background-color: #f75317; }
+
+.grid-obra, .main-obras .obras1-sec {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-auto-flow: dense; }
+  .grid-obra .img-1 img, .main-obras .obras1-sec .img-1 img,
+  .grid-obra .img-2 img,
+  .main-obras .obras1-sec .img-2 img,
+  .grid-obra .img-3 img,
+  .main-obras .obras1-sec .img-3 img,
+  .grid-obra .img-4 img,
+  .main-obras .obras1-sec .img-4 img,
+  .grid-obra .img-5 img,
+  .main-obras .obras1-sec .img-5 img,
+  .grid-obra .img-6 img,
+  .main-obras .obras1-sec .img-6 img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 30px;
+    border-radius: 10px; }
+    .grid-obra .img-1 img img, .main-obras .obras1-sec .img-1 img img,
+    .grid-obra .img-2 img img,
+    .main-obras .obras1-sec .img-2 img img,
+    .grid-obra .img-3 img img,
+    .main-obras .obras1-sec .img-3 img img,
+    .grid-obra .img-4 img img,
+    .main-obras .obras1-sec .img-4 img img,
+    .grid-obra .img-5 img img,
+    .main-obras .obras1-sec .img-5 img img,
+    .grid-obra .img-6 img img,
+    .main-obras .obras1-sec .img-6 img img {
+      width: 318px;
+      border-radius: 10px; }
+      .grid-obra .img-1 img img:hover, .main-obras .obras1-sec .img-1 img img:hover,
+      .grid-obra .img-2 img img:hover,
+      .main-obras .obras1-sec .img-2 img img:hover,
+      .grid-obra .img-3 img img:hover,
+      .main-obras .obras1-sec .img-3 img img:hover,
+      .grid-obra .img-4 img img:hover,
+      .main-obras .obras1-sec .img-4 img img:hover,
+      .grid-obra .img-5 img img:hover,
+      .main-obras .obras1-sec .img-5 img img:hover,
+      .grid-obra .img-6 img img:hover,
+      .main-obras .obras1-sec .img-6 img img:hover {
+        transform: scale(1.12);
+        transition: 3s; }
+    .grid-obra .img-1 img:hover, .main-obras .obras1-sec .img-1 img:hover,
+    .grid-obra .img-2 img:hover,
+    .main-obras .obras1-sec .img-2 img:hover,
+    .grid-obra .img-3 img:hover,
+    .main-obras .obras1-sec .img-3 img:hover,
+    .grid-obra .img-4 img:hover,
+    .main-obras .obras1-sec .img-4 img:hover,
+    .grid-obra .img-5 img:hover,
+    .main-obras .obras1-sec .img-5 img:hover,
+    .grid-obra .img-6 img:hover,
+    .main-obras .obras1-sec .img-6 img:hover {
+      transform: scale(1.12);
+      transition: 3s; }
+
+.grid-o2, .main-obras .obras2-sec {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-auto-flow: dense; }
+  .grid-o2 .photo-1, .main-obras .obras2-sec .photo-1,
+  .grid-o2 .photo-2,
+  .main-obras .obras2-sec .photo-2,
+  .grid-o2 .photo-3,
+  .main-obras .obras2-sec .photo-3,
+  .grid-o2 .photo-4,
+  .main-obras .obras2-sec .photo-4,
+  .grid-o2 .photo-5,
+  .main-obras .obras2-sec .photo-5,
+  .grid-o2 .photo-6,
+  .main-obras .obras2-sec .photo-6,
+  .grid-o2 .photo-7,
+  .main-obras .obras2-sec .photo-7,
+  .grid-o2 .photo-8,
+  .main-obras .obras2-sec .photo-8 {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 30px; }
+    .grid-o2 .photo-1 img, .main-obras .obras2-sec .photo-1 img,
+    .grid-o2 .photo-2 img,
+    .main-obras .obras2-sec .photo-2 img,
+    .grid-o2 .photo-3 img,
+    .main-obras .obras2-sec .photo-3 img,
+    .grid-o2 .photo-4 img,
+    .main-obras .obras2-sec .photo-4 img,
+    .grid-o2 .photo-5 img,
+    .main-obras .obras2-sec .photo-5 img,
+    .grid-o2 .photo-6 img,
+    .main-obras .obras2-sec .photo-6 img,
+    .grid-o2 .photo-7 img,
+    .main-obras .obras2-sec .photo-7 img,
+    .grid-o2 .photo-8 img,
+    .main-obras .obras2-sec .photo-8 img {
+      width: 318px;
+      border-radius: 10px; }
+      .grid-o2 .photo-1 img:hover, .main-obras .obras2-sec .photo-1 img:hover,
+      .grid-o2 .photo-2 img:hover,
+      .main-obras .obras2-sec .photo-2 img:hover,
+      .grid-o2 .photo-3 img:hover,
+      .main-obras .obras2-sec .photo-3 img:hover,
+      .grid-o2 .photo-4 img:hover,
+      .main-obras .obras2-sec .photo-4 img:hover,
+      .grid-o2 .photo-5 img:hover,
+      .main-obras .obras2-sec .photo-5 img:hover,
+      .grid-o2 .photo-6 img:hover,
+      .main-obras .obras2-sec .photo-6 img:hover,
+      .grid-o2 .photo-7 img:hover,
+      .main-obras .obras2-sec .photo-7 img:hover,
+      .grid-o2 .photo-8 img:hover,
+      .main-obras .obras2-sec .photo-8 img:hover {
+        transform: scale(1.12);
+        transition: 3s; }
+
+.flex-s, .main-obras .varias-obras .edificaciones, .main-nosotros .servicios .servi, .main-contacto .container .box-info .datos, .main-contacto .container .formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.estilos, .footer-s .foot-sc li, .footer-s .foot-sc li a, .footer-s .by {
+  list-style-type: none;
+  color: white;
+  text-decoration: none; }
+
+.th-esti, .main-trabajosdestacados .realizadas-galeria .img-1 img,
+.main-trabajosdestacados .realizadas-galeria .img-2 img,
+.main-trabajosdestacados .realizadas-galeria .img-3 img,
+.main-trabajosdestacados .realizadas-galeria .img-4 img,
+.main-trabajosdestacados .realizadas-galeria .img-5 img,
+.main-trabajosdestacados .realizadas-galeria .img-6 img, .main-trabajosdestacados .realizadas-thames .photo-1 img,
+.main-trabajosdestacados .realizadas-thames .photo-2 img,
+.main-trabajosdestacados .realizadas-thames .photo-3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 2px solid #f75317;
+  margin: 15px;
+  padding: 4px; }
 
 * {
   margin: 0;
@@ -71,19 +236,6 @@ h1, .main-trabajosdestacados h1 {
     .main-trabajosdestacados .terminados .ll-container p {
       margin-top: 10px;
       font-size: 18px; }
-    .main-trabajosdestacados .terminados .ll-container .button {
-      font-family: "Nunito Sans", sans-serif;
-      margin-top: 20px;
-      padding: 10px 20px;
-      font-size: 16px;
-      background-color: #070733;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease; }
-      .main-trabajosdestacados .terminados .ll-container .button:hover {
-        background-color: #f75317; }
 
 .main-trabajosdestacados .td {
   text-align: center;
@@ -99,18 +251,6 @@ h1, .main-trabajosdestacados h1 {
   max-width: 1200px;
   margin: 0 auto;
   grid-auto-flow: dense; }
-  .main-trabajosdestacados .realizadas-galeria .img-1 img,
-  .main-trabajosdestacados .realizadas-galeria .img-2 img,
-  .main-trabajosdestacados .realizadas-galeria .img-3 img,
-  .main-trabajosdestacados .realizadas-galeria .img-4 img,
-  .main-trabajosdestacados .realizadas-galeria .img-5 img,
-  .main-trabajosdestacados .realizadas-galeria .img-6 img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border: 2px solid #f75317;
-    margin: 15px;
-    padding: 4px; }
   .main-trabajosdestacados .realizadas-galeria .img-1,
   .main-trabajosdestacados .realizadas-galeria .img-4 {
     grid-column: 1; }
@@ -137,15 +277,6 @@ h1, .main-trabajosdestacados h1 {
   max-width: 1200px;
   margin: 0 auto;
   grid-auto-flow: dense; }
-  .main-trabajosdestacados .realizadas-thames .photo-1 img,
-  .main-trabajosdestacados .realizadas-thames .photo-2 img,
-  .main-trabajosdestacados .realizadas-thames .photo-3 img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border: 2px solid #f75317;
-    margin: 15px;
-    padding: 4px; }
   .main-trabajosdestacados .realizadas-thames .photo-1,
   .main-trabajosdestacados .realizadas-thames .photo-2,
   .main-trabajosdestacados .realizadas-thames .photo-3 {
@@ -221,13 +352,6 @@ h1, .main-trabajosdestacados h1 {
     .main-trabajosdestacados .realizadas-thames .photo-3 {
       grid-row: 2; } }
 
-.main-obras h1 {
-  background-color: #f75317;
-  color: #070733;
-  text-align: center;
-  font-family: "Nunito Sans", sans-serif;
-  padding: 10px; }
-
 .main-obras h2 {
   color: #070733;
   text-align: center;
@@ -241,9 +365,6 @@ h1, .main-trabajosdestacados h1 {
   flex-wrap: wrap;
   align-content: center; }
   .main-obras .varias-obras .edificaciones {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-family: "Nunito Sans", sans-serif;
     box-shadow: 1px 1px 5px 1px;
     padding: 10px;
@@ -255,109 +376,11 @@ h1, .main-trabajosdestacados h1 {
       color: #070733;
       text-align: center;
       padding: 7px; }
-    .main-obras .varias-obras .edificaciones .button {
-      font-family: "Nunito Sans", sans-serif;
-      margin-top: 20px;
-      padding: 10px 20px;
-      font-size: 16px;
-      background-color: #070733;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease; }
-      .main-obras .varias-obras .edificaciones .button:hover {
-        background-color: #f75317; }
 
 .main-obras h3 {
   color: #070733;
   text-align: center;
   padding: 7px; }
-
-.main-obras .obras1-sec {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  justify-items: center;
-  gap: 10px;
-  max-width: 1200px;
-  margin: 0 auto;
-  grid-auto-flow: dense; }
-  .main-obras .obras1-sec .img-1 img,
-  .main-obras .obras1-sec .img-2 img,
-  .main-obras .obras1-sec .img-3 img,
-  .main-obras .obras1-sec .img-4 img,
-  .main-obras .obras1-sec .img-5 img,
-  .main-obras .obras1-sec .img-6 img {
-    width: 80%;
-    height: auto;
-    display: block;
-    margin: 30px;
-    border-radius: 10px; }
-    .main-obras .obras1-sec .img-1 img img,
-    .main-obras .obras1-sec .img-2 img img,
-    .main-obras .obras1-sec .img-3 img img,
-    .main-obras .obras1-sec .img-4 img img,
-    .main-obras .obras1-sec .img-5 img img,
-    .main-obras .obras1-sec .img-6 img img {
-      width: 318px;
-      border-radius: 10px; }
-      .main-obras .obras1-sec .img-1 img img:hover,
-      .main-obras .obras1-sec .img-2 img img:hover,
-      .main-obras .obras1-sec .img-3 img img:hover,
-      .main-obras .obras1-sec .img-4 img img:hover,
-      .main-obras .obras1-sec .img-5 img img:hover,
-      .main-obras .obras1-sec .img-6 img img:hover {
-        transform: scale(1.12);
-        transition: 3s; }
-    .main-obras .obras1-sec .img-1 img:hover,
-    .main-obras .obras1-sec .img-2 img:hover,
-    .main-obras .obras1-sec .img-3 img:hover,
-    .main-obras .obras1-sec .img-4 img:hover,
-    .main-obras .obras1-sec .img-5 img:hover,
-    .main-obras .obras1-sec .img-6 img:hover {
-      transform: scale(1.12);
-      transition: 3s; }
-
-.main-obras .obras2-sec {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  justify-items: center;
-  gap: 10px;
-  max-width: 1200px;
-  margin: 0 auto;
-  grid-auto-flow: dense; }
-  .main-obras .obras2-sec .photo-1,
-  .main-obras .obras2-sec .photo-2,
-  .main-obras .obras2-sec .photo-3,
-  .main-obras .obras2-sec .photo-4,
-  .main-obras .obras2-sec .photo-5,
-  .main-obras .obras2-sec .photo-6,
-  .main-obras .obras2-sec .photo-7,
-  .main-obras .obras2-sec .photo-8 {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: 30px; }
-    .main-obras .obras2-sec .photo-1 img,
-    .main-obras .obras2-sec .photo-2 img,
-    .main-obras .obras2-sec .photo-3 img,
-    .main-obras .obras2-sec .photo-4 img,
-    .main-obras .obras2-sec .photo-5 img,
-    .main-obras .obras2-sec .photo-6 img,
-    .main-obras .obras2-sec .photo-7 img,
-    .main-obras .obras2-sec .photo-8 img {
-      width: 318px;
-      border-radius: 10px; }
-      .main-obras .obras2-sec .photo-1 img:hover,
-      .main-obras .obras2-sec .photo-2 img:hover,
-      .main-obras .obras2-sec .photo-3 img:hover,
-      .main-obras .obras2-sec .photo-4 img:hover,
-      .main-obras .obras2-sec .photo-5 img:hover,
-      .main-obras .obras2-sec .photo-6 img:hover,
-      .main-obras .obras2-sec .photo-7 img:hover,
-      .main-obras .obras2-sec .photo-8 img:hover {
-        transform: scale(1.12);
-        transition: 3s; }
 
 .main-obras .obras3-sec {
   display: grid;
@@ -405,13 +428,6 @@ h1, .main-trabajosdestacados h1 {
     height: 369px;
     width: 320px; } }
 
-.main-nosotros h1 {
-  background-color: #f75317;
-  color: #070733;
-  text-align: center;
-  font-family: "Nunito Sans", sans-serif;
-  padding: 10px; }
-
 .main-nosotros .nuestra-historia {
   color: #070733;
   text-align: center;
@@ -428,13 +444,9 @@ h1, .main-trabajosdestacados h1 {
   padding: 10px; }
 
 .main-nosotros .servicios .servi {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 10px;
   padding: 15px;
-  color: #070733;
-  align-items: center; }
+  color: #070733; }
   .main-nosotros .servicios .servi img {
     height: 350px;
     width: 500px;
@@ -447,7 +459,7 @@ h1, .main-trabajosdestacados h1 {
     border-bottom: 5px solid #f75317; }
 
 @media screen and (max-width: 991px) {
-  h1, .main-trabajosdestacados h1 {
+  h1 {
     font-size: 24px;
     padding: 15px; }
   .nuestra-historia {
@@ -464,7 +476,7 @@ h1, .main-trabajosdestacados h1 {
       font-size: 14px; } }
 
 @media screen and (max-width: 600px) {
-  h1, .main-trabajosdestacados h1 {
+  h1 {
     font-size: 22px;
     padding: 10px; }
   .nuestra-historia {
@@ -487,33 +499,27 @@ h1, .main-trabajosdestacados h1 {
 .body-contacto {
   background-color: #070733; }
 
-.main-contacto .container .box-info .datos {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .main-contacto .container .box-info .datos .contacto {
-    color: #f75317 !important;
-    background-color: #070733; }
-  .main-contacto .container .box-info .datos p {
-    color: white; }
-    .main-contacto .container .box-info .datos p .icon-contac {
-      color: #f75317;
-      padding-right: 8px; }
+.main-contacto .container .box-info .datos .contacto {
+  color: #f75317 !important;
+  background-color: #070733; }
 
-.main-contacto .container .formulario {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .main-contacto .container .formulario .form-cont {
-    width: 50%;
-    height: 50%;
-    padding: 8px;
-    margin: 15px 30px 30px 38px;
-    background-color: transparent;
-    border-bottom: 2px solid #f75317;
-    color: white; }
-  .main-contacto .container .formulario .pregunta-contacto {
-    color: #f75317; }
+.main-contacto .container .box-info .datos p {
+  color: white; }
+  .main-contacto .container .box-info .datos p .icon-contac {
+    color: #f75317;
+    padding-right: 8px; }
+
+.main-contacto .container .formulario .form-cont {
+  width: 50%;
+  height: 50%;
+  padding: 8px;
+  margin: 15px 30px 30px 38px;
+  background-color: transparent;
+  border-bottom: 2px solid #f75317;
+  color: white; }
+
+.main-contacto .container .formulario .pregunta-contacto {
+  color: #f75317; }
 
 .main-contacto .encontrarnos {
   color: white;
@@ -549,20 +555,13 @@ h1, .main-trabajosdestacados h1 {
     display: flex;
     justify-content: center;
     padding: 20px 0; }
-    .footer-s .foot-sc li {
-      list-style-type: none; }
-      .footer-s .foot-sc li a {
-        list-style-type: none;
-        color: white;
-        font-family: "Nunito Sans", sans-serif;
-        padding: 10px;
-        margin: 0 10px; }
-        .footer-s .foot-sc li a:hover {
-          color: #f75317; }
+    .footer-s .foot-sc li a {
+      font-family: "Nunito Sans", sans-serif;
+      padding: 10px;
+      margin: 0 10px; }
+      .footer-s .foot-sc li a:hover {
+        color: #f75317; }
   .footer-s .by {
-    list-style-type: none;
-    color: white;
-    text-decoration: none;
     align-items: center;
     font-family: uppercase;
     padding: 3px 5px 0px 47%; }

@@ -5,9 +5,7 @@
   .container{
     .box-info{
       .datos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @extend .flex-s;
         .contacto{
           color: $naranja !important;
           background-color: $azul;
@@ -23,9 +21,7 @@
       }
     }
     .formulario{
-      display: flex;
-        flex-direction: column;
-        align-items: center; 
+      @extend .flex-s;
       .form-cont{
         width: 50%;
         height: 50%;

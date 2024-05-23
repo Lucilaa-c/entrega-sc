@@ -1,10 +1,6 @@
 .main-obras{
     h1 {
-        background-color: $naranja;
-        color: $azul;
-        text-align: center;
-        font-family: $font_sans-serif;
-        padding: 10px;
+       @extend .titulos-grandes;
 
     }
     
@@ -21,9 +17,7 @@
         flex-wrap: wrap;
         align-content: center;
         .edificaciones {
-            display: flex;
-        flex-direction: column;
-        align-items: center;
+            @extend .flex-s;
             font-family: $font_sans-serif;
             box-shadow: 1px 1px 5px 1px;
             padding: 10px;
@@ -38,20 +32,7 @@
                 padding: 7px;
             }
             .button {
-                font-family: $font_sans-serif;
-                margin-top: 20px;
-                padding: 10px 20px;
-                font-size: 16px;
-                background-color: $azul;
-                color: $blanco;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                transition: background-color 0.3s ease;
-    
-                &:hover {
-                    background-color: $naranja;
-                }
+                @extend .button;
             }
         }
     }
@@ -63,77 +44,12 @@
     
     
     .obras1-sec{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        justify-items: center;
-        gap: 10px;
-        max-width: 1200px;
-        margin: 0 auto;
-        grid-auto-flow: dense;
-
-        .img-1 img,
-        .img-2 img,
-        .img-3 img,
-        .img-4 img,
-        .img-5 img,
-        .img-6 img {
-            img{
-                width: 318px;
-                border-radius: 10px;
-                &:hover{
-                    transform: scale(1.12);
-                transition: 3s;
-    
-                }
-            }
-            width: 80%;
-            height: auto;
-            display: block;
-            margin: 30px;
-            border-radius: 10px;
-            &:hover{
-                transform: scale(1.12);
-                transition: 3s;
-
-            }
-
-        }
+        @extend .grid-obra;
 
     }
 
     .obras2-sec{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        justify-items: center;
-        gap: 10px;
-        max-width: 1200px;
-        margin: 0 auto;
-        grid-auto-flow: dense;
-
-        .photo-1,
-        .photo-2,
-        .photo-3,
-        .photo-4,
-        .photo-5,
-        .photo-6,
-        .photo-7,
-        .photo-8{
-            img{
-                width: 318px;
-                border-radius: 10px;
-                &:hover{
-                    transform: scale(1.12);
-                transition: 3s;
-    
-                }
-               
-            }
-            width: 90%;
-            height: auto;
-            display: block;
-            margin: 30px;
-            
-        }
+       @extend .grid-o2;
     }
     .obras3-sec{
         display: grid;

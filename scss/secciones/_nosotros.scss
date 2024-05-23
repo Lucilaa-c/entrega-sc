@@ -1,10 +1,6 @@
 .main-nosotros{
     h1 {
-        background-color: $naranja;
-        color: $azul;
-        text-align: center;
-        font-family: $font_sans-serif;
-        padding: 10px;
+        @extend .titulos-grandes;
 
     }
     .nuestra-historia {
@@ -24,13 +20,11 @@
     }
     .servicios{
         .servi {
-            display: flex;
-        flex-direction: column;
-        align-items: center;
+            @extend .flex-s;
             margin: 10px;
             padding: 15px;
             color: $azul;
-            align-items: center;
+            
             img {
                 height: 350px;
                 width: 500px;
