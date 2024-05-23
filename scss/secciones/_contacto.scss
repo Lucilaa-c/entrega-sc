@@ -23,7 +23,8 @@
     }
     .formulario{
       display: flex;
-      flex-direction: column;
+        flex-direction: column;
+        align-items: center; 
       .form-cont{
         width: 50%;
         height: 50%;

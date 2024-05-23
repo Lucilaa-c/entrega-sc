@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+h1, .main-trabajosdestacados h1, .main-obras h1 {
+  background-color: #f75317;
+  color: #070733;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 10px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -46,13 +53,6 @@
       color: #070733; }
     .color-navegacion .nav-izq ul li a:hover {
       color: #f75317; }
-
-.main-trabajosdestacados h1 {
-  background-color: #f75317;
-  color: #070733;
-  text-align: center;
-  font-family: "Nunito Sans", sans-serif;
-  padding: 10px; }
 
 .main-trabajosdestacados .terminados {
   display: flex;
@@ -221,13 +221,6 @@
     .main-trabajosdestacados .realizadas-thames .photo-3 {
       grid-row: 2; } }
 
-.main-obras h1 {
-  background-color: #f75317;
-  color: #070733;
-  text-align: center;
-  font-family: "Nunito Sans", sans-serif;
-  padding: 10px; }
-
 .main-obras h2 {
   color: #070733;
   text-align: center;
@@ -256,11 +249,18 @@
       text-align: center;
       padding: 7px; }
     .main-obras .varias-obras .edificaciones .button {
-      padding: 7px;
-      margin: 5px;
-      color: #070733;
-      background-color: #f75317;
-      border-radius: 5px; }
+      font-family: "Nunito Sans", sans-serif;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #070733;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease; }
+      .main-obras .varias-obras .edificaciones .button:hover {
+        background-color: #f75317; }
 
 .main-obras h3 {
   color: #070733;
@@ -270,7 +270,11 @@
 .main-obras .obras1-sec {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center; }
+  justify-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-auto-flow: dense; }
   .main-obras .obras1-sec .img-1 img,
   .main-obras .obras1-sec .img-2 img,
   .main-obras .obras1-sec .img-3 img,
@@ -294,7 +298,11 @@
 .main-obras .obras2-sec {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center; }
+  justify-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-auto-flow: dense; }
   .main-obras .obras2-sec .photo-1,
   .main-obras .obras2-sec .photo-2,
   .main-obras .obras2-sec .photo-3,
@@ -331,7 +339,11 @@
 .main-obras .obras3-sec {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center; }
+  justify-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-auto-flow: dense; }
   .main-obras .obras3-sec .imga-1,
   .main-obras .obras3-sec .imga-2,
   .main-obras .obras3-sec .imga-3,
@@ -511,12 +523,12 @@
   padding: 10px; }
 
 .main-nosotros .servicios .servi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 10px;
   padding: 15px;
   color: #070733;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
   align-items: center; }
   .main-nosotros .servicios .servi img {
     height: 350px;
@@ -530,7 +542,7 @@
     border-bottom: 5px solid #f75317; }
 
 @media screen and (max-width: 991px) {
-  h1 {
+  h1, .main-trabajosdestacados h1, .main-obras h1 {
     font-size: 24px;
     padding: 15px; }
   .nuestra-historia {
@@ -546,33 +558,16 @@
     .servicios .servi p {
       font-size: 14px; } }
 
-@media screen and (max-width: 590px) {
-  h1 {
-    font-size: 20px;
-    padding: 10px; }
-  .nuestra-historia {
-    font-size: 16px;
-    padding: 10px;
-    margin: 10px; }
-  h2 {
-    font-size: 18px;
-    padding: 10px; }
-  .servicios .servi {
-    margin: 10px;
-    padding: 10px; }
-    .servicios .servi p {
-      font-size: 12px; } }
-
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 20px;
+  h1, .main-trabajosdestacados h1, .main-obras h1 {
+    font-size: 22px;
     padding: 10px; }
   .nuestra-historia {
     font-size: 16px;
     padding: 10px;
     margin: 10px; }
   h2 {
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px; }
   .servicios .servi {
     margin: 5px;
@@ -601,7 +596,8 @@
 
 .main-contacto .container .formulario {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
   .main-contacto .container .formulario .form-cont {
     width: 50%;
     height: 50%;
@@ -651,13 +647,20 @@
     .footer-s .foot-sc li {
       list-style-type: none; }
       .footer-s .foot-sc li a {
+        list-style-type: none;
         color: white;
-        text-decoration: none;
         font-family: "Nunito Sans", sans-serif;
         padding: 10px;
         margin: 0 10px; }
         .footer-s .foot-sc li a:hover {
           color: #f75317; }
+  .footer-s .by {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: uppercase;
+    padding: 3px 5px 0px 47%; }
   .footer-s .iconos-footer {
     display: flex;
     justify-content: center;
@@ -665,8 +668,8 @@
     .footer-s .iconos-footer li {
       list-style-type: none; }
       .footer-s .iconos-footer li a {
+        list-style-type: none;
         color: white;
-        text-decoration: none;
         padding: 5px; }
         .footer-s .iconos-footer li a:hover {
           color: #f75317; }
@@ -684,11 +687,15 @@
       width: 100%; }
       .foot-sc li a,
       .iconos-footer li a {
-        font-size: 14px; } }
+        font-size: 14px; }
+  .by {
+    padding: 3px 5px 0px 46% !important; } }
 
 @media (max-width: 600px) {
   .footer-s .foot-sc {
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .by {
+    padding: 3px 5px 0px 41% !important; } }

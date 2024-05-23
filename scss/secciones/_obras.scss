@@ -1,10 +1,6 @@
 .main-obras{
     h1 {
-        background-color: $naranja;
-        color: $azul;
-        text-align: center;
-        font-family: $font_sans-serif;
-        padding: 10px;
+        @extend h1 ;
     }
     
     h2 {
@@ -21,8 +17,8 @@
         align-content: center;
         .edificaciones {
             display: flex;
-            flex-direction: column;
-            align-items: center;
+        flex-direction: column;
+        align-items: center;
             font-family: $font_sans-serif;
             box-shadow: 1px 1px 5px 1px;
             padding: 10px;
@@ -37,11 +33,20 @@
                 padding: 7px;
             }
             .button {
-                padding: 7px;
-                margin: 5px;
-                color: $azul;
-                background-color: $naranja;
+                font-family: $font_sans-serif;
+                margin-top: 20px;
+                padding: 10px 20px;
+                font-size: 16px;
+                background-color: $azul;
+                color: $blanco;
+                border: none;
                 border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+    
+                &:hover {
+                    background-color: $naranja;
+                }
             }
         }
     }
@@ -56,6 +61,10 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
+        gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-auto-flow: dense;
 
         .img-1 img,
         .img-2 img,
@@ -83,6 +92,10 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
+        gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-auto-flow: dense;
 
         .photo-1,
         .photo-2,
@@ -97,7 +110,7 @@
                 border-radius: 10px;
                 &:hover{
                     transform: scale(1.12);
-                    transition: 3s;
+                transition: 3s;
     
                 }
                
@@ -113,6 +126,10 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
+        gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-auto-flow: dense;
 
         .imga-1,
         .imga-2,
@@ -127,7 +144,7 @@
                 border-radius: 10px;
                 &:hover{
                     transform: scale(1.12);
-                    transition: 3s;
+                transition: 3s;
     
                 }
             }
@@ -236,8 +253,7 @@
                 border-radius: 10px;
                 &:hover{
                     transform: scale(1.12);
-                    transition: 3s;
-    
+                transition: 3s;
                 }
                
             }
@@ -266,7 +282,7 @@
                 border-radius: 10px;
                 &:hover{
                     transform: scale(1.12);
-                    transition: 3s;
+                transition: 3s;
     
                 }
             }
