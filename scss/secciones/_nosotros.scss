@@ -100,7 +100,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     h1 {
         font-size: 20px;
         padding: 10px;
@@ -116,12 +116,12 @@
     }
     .servicios {
         .servi {
-            margin: 10px;
+            margin: 5px;
             padding: 10px;
             img {
-                height: 240px;
-                width: 320px;
-                border-radius: 10px;
+                height: 279px !important;
+                width: 328px !important;
+                border-radius: 8px;
             }    
             p {
                 font-size: 12px;
