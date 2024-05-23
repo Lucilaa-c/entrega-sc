@@ -13,8 +13,8 @@
             list-style-type: none;
 
             a {
-                color: white;
-                text-decoration: none;
+                list-style-type: none;
+        color: $blanco;
                 font-family: $font_sans-serif;
                 padding: 10px;
                 margin: 0 10px;
@@ -24,6 +24,14 @@
                 }
             }
         }
+    }
+    .by{
+        list-style-type: none;
+        color: $blanco;
+        text-decoration: none;
+        align-items: center;
+        font-family: uppercase;
+        padding: 3px 5px 0px 47%;
     }
 
     .iconos-footer {
@@ -35,8 +43,8 @@
             list-style-type: none;
 
             a {
-                color: white;
-                text-decoration: none;
+                list-style-type: none;
+        color: $blanco;
                 padding: 5px;
 
                 &:hover {
@@ -68,16 +76,22 @@
             }
         }
     }
+    .by{
+        padding: 3px 5px 0px 46% !important;
+    }
 }
 @media (max-width: 600px){
     .footer-s{
         .foot-sc{
             display: flex;
-            justify-content: center;
-            padding: 20px 0;
+        justify-content: center;
+        padding: 20px 0;
             flex-wrap: wrap;
 
         }
+    }
+    .by{
+        padding: 3px 5px 0px 41% !important;
     }
 
 }
