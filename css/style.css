@@ -206,6 +206,9 @@
   background-color: #070733; }
   .color-navegacion a {
     color: white; }
+  .color-navegacion .navbar-toggler {
+    background-color: white;
+    text-decoration: none; }
   .color-navegacion .active {
     color: white !important; }
   .color-navegacion .nav-izq {

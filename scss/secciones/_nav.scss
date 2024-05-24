@@ -4,9 +4,14 @@
     a{
         color: $blanco;
     }
+    .navbar-toggler{
+        background-color: $blanco;
+        text-decoration: none;
+    }
     .active {
         color: $blanco !important;
     }
+    
     
      .nav-izq {
           justify-content: flex-end;
